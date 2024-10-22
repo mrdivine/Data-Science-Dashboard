@@ -1,0 +1,9 @@
+Skill,Proficiency (1-10),Relevant Experience Summary
+Python Programming,9,"15+ years experience across multiple projects (e.g., CRM data cleansing, genome assembly, NLP pipelines) utilizing Python extensively."
+Cloud Development,8,"7+ years in cloud environments (AWS & Azure), e.g., CRM cleanup, deploying LLM-based apps, bioinformatics pipelines in AWS."
+Data Integration,7,"Integrated large datasets in projects like CRM, clinical trial data, and bioinformatics workflows; developed ETL pipelines on AWS."
+Machine Learning,7,"Involved in AI/ML projects like genome assembly, NLP annotation systems, and using LLM for clinical data analysis and prompt engineering."
+Big Data (Airflow/Spark),6,"Experience managing large-scale data projects in AWS using Airflow for bioinformatics, genome sequencing, and clinical trial data."
+SQL & NoSQL Databases,8,"Worked extensively with SQL and NoSQL (e.g., Snowflake, MongoDB) in various projects, including cloud data lakes and analytics platforms."
+CI/CD Pipelines,7,"Developed and maintained robust CI/CD pipelines for bioinformatics workflows, AWS cloud solutions, and NLP-driven projects."
+Project Management,8,"Led multiple high-level projects, including CRM data management, LLM-based app deployment, and bioinformatics pipeline development."
