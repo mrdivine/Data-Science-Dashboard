@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b691dee-2172-4fb7-95fd-956c3782cad2" name="Changes" comment="Initial commit of streamlit dashboard project">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FullResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/docs/FullResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard_skills.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/docs/hard_skills.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/long_pic.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/panorama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft_skills.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/docs/soft_skills.csv" afterDir="false" />
-    </list>
+    <list default="true" id="1b691dee-2172-4fb7-95fd-956c3782cad2" name="Changes" comment="Initial commit of streamlit dashboard project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
