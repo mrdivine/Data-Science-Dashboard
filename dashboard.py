@@ -4,6 +4,18 @@ import plotly.graph_objects as go
 
 # Basic setup
 st.set_page_config(page_title="Dr. Mathew Divine: Expert Data Scientist & AI Strategist", layout="centered")
+ms = st.session_state
+if "themes" not in ms:
+    ms.themes = {"current_theme": "light",
+                 "refreshed": True,
+
+                 "light": {"theme.base": "dark",
+                           "theme.backgroundColor": "black",
+                           "theme.primaryColor": "#c98bdb",
+                           "theme.secondaryBackgroundColor": "#5591f5",
+                           "theme.textColor": "white",
+                           "button_face": "🌜"}
+                 }
 
 # Custom CSS for vertical centering
 st.markdown(
@@ -14,23 +26,46 @@ st.markdown(
         align-items: center;
         height: 100%;
         justify-content: center;
+        padding-right: 20px;
     }
+
+    h2 {
+        line-height: 0.1; /* Reduces the space between the h2 lines */
+        margin-bottom: 3px; /* This can add some breathing room under the h2 */
+        letter-spacing: 1px; /* This can add some breathing room under the h2 */
+    }
+    .title-h1 {
+        margin-bottom: 40px; /* Adds space between h1 and h2 */
+        font-weight: 200; /* Make your name more prominent */
+        letter-spacing: 1px; /* Subtle spacing to give it more presence */
+        color: #dec89f; /* Keeping the text white to play against the dark background */
+    }
+    # .centered h1, .centered h2 {
+    #     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Slight glow to make the text pop */
+    # }
+    # 
+    # body {
+    #     background: linear-gradient(135deg, #141E30 0%, #243B55 100%); /* Dark-to-light gradient for more dynamic contrast */
+    # }
     </style>
     """,
     unsafe_allow_html=True
 )
 
 # Creating a two-column layout: Panorama image on the right and executive statement on the left
-col1, col2 = st.columns([12, 5])  # Adjusting the width of the columns as necessary
+col1, col2 = st.columns([7, 5])  # Adjusting the width of the columns as necessary
 
 # Left column for the executive statement
+
 with col1:
     st.markdown(
         """
         <div class="centered">
             <div>
-                <h1>Dr. Mathew Divine</h1>
-                <h2>Expert Data Scientist & AI Strategist</h2>
+                <h1 class="title-h1">Dr. Mathew Divine</h1>
+                <h2>Expert Data Scientist</h2>
+                <h2>&</h2>
+                <h2>AI Strategist</h2>
             </div>
         </div>
         """,
@@ -39,12 +74,21 @@ with col1:
 
 # Right column for the panorama image
 with col2:
-    st.image("long_pic.jpeg", use_column_width=True)
+    st.image("head_shot_round.png", use_column_width=True)
 
+st.markdown(
+"""
+---
+""",
+)
 # Placeholder for Job Profile
-st.title("Applying for: Data Product Owner")
+st.title("Applying for *Data Product Owner*")
+st.markdown(
+"""
+---
+""",
+)
 
-st.subheader("Letter of Intent")
 cover_letter = """
 Sehr geehrte Damen und Herren,
 
@@ -68,6 +112,11 @@ Mit freundlichen Grüßen,\n
 Dr. Mathew Divine
 """
 st.write(cover_letter)
+st.markdown(
+"""
+---
+""",
+)
 
 # Hard Skills Table and Radar Plot
 st.subheader("Hard Skills Self-Assessment")
@@ -117,15 +166,25 @@ st.table(soft_skills)
 
 # Plotting radar chart for Soft Skills
 plot_radar(soft_skills, "Soft Skills Radar Chart")
+st.markdown(
+"""
+---
+""",
+)
 
 # Resume Download Button
 with open("FullResume.pdf", "rb") as pdf_file:
     pdf_bytes = pdf_file.read()
     st.download_button(label="Download Full Resume with Comple Project List", data=pdf_bytes, file_name="FullResume.pdf", mime="application/pdf")
 
+st.markdown(
+"""
+---
+""",
+)
 st.header("Contact Information")
 st.markdown("""
 **Dr. Mathew Divine**\n
 Frankfurter Region, Deutschland\n
-[LinkedIn](https://www.linkedin.com/in/dr-mathew-divine/) | [Google Scholar](https://scholar.google.de/citations?user=wGJeTZQAAAAJ&hl=en) | [Check out this GitHub Repo](https://github.com/dr-scholar/Dr-Mathew-Divine)
+[LinkedIn](https://www.linkedin.com/in/dr-mathew-divine/) | [Google Scholar](https://scholar.google.de/citations?user=wGJeTZQAAAAJ&hl=en) | [Check out this GitHub Repo](https://github.com/mrdivine/Data-Science-Dashboard)
 """)
