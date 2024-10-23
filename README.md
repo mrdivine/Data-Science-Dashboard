@@ -1,6 +1,6 @@
 # Data Science Dashboard
 
-This is a personal portfolio dashboard designed to showcase the skills and experiences of Dr. Mathew Divine, an expert Data Scientist and AI Strategist. This dashboard features a detailed breakdown of both hard and soft skills through interactive charts and tables.
+This is a personal portfolio dashboard designed to showcase the skills and experiences of Dr. Mathew Divine, an expert Data Scientist and AI Strategist. This dashboard features a detailed breakdown of both hard and soft skills through interactive charts and tables. The content for the dashboard was created with ChatGPT, the Job Profile for a Product Owner, my resume, and one prompt. 
 
 ## Features
 - **Interactive Hard Skills Radar Plot**: Visualizes the technical proficiencies.
