@@ -12,34 +12,66 @@ This is a personal portfolio dashboard designed to showcase the skills and exper
 
 ### Prerequisites
 - [Docker](https://docs.docker.com/get-docker/)
-- [Python 3.x](https://www.python.org/downloads/)
-- [Streamlit](https://docs.streamlit.io/)
+- [AWS CLI](https://aws.amazon.com/cli/) configured for your account
+- [Make](https://www.gnu.org/software/make/)
 
+### Configuration
+Before deploying, ensure that you have a `.env` file in the `.lightsail` directory with the following variables defined:
+
+```bash
+IMAGE_NAME=your-image-name
+REGION=your-region
+LIGHTSAIL_SERVICE_NAME=your-service-name
+CONTAINER_NAME=your-container-name
+```
 ### Running Locally
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-repo-url.git
-    cd your-repo-url
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
+```bash   
+git clone https://github.com/mrdivine/Data-Science-Dashboard.git
+cd Data-Science-Dashboard
+```
+2. **Build Docker Image dependencies**:
+```bash   
+  make 
+```
 3. **Run the Streamlit app**:
-    ```bash
-    streamlit run app/dashboard.py
-    ```
+```bash
+streamlit run app/dashboard.py
+```
+4. **Building and running Docker locally**:
+```bash
+docker build -t your-image-name .
+docker run -p 8501:8501 your-image-name
+```
+### Using Makefile for Deployment
 
-4. **Building and running Docker**:
-    ```bash
-    docker build -t your-image-name .
-    docker run -p 8501:8501 your-image-name
-    ```
+This project utilizes `Makefile` commands to automate deployment steps.
+
+1. **Create and Initialize Lightsail Service**:  
+This command will create the Lightsail instance and container service for your app.  
+```make init```
+
+2. **Build and Push Docker Image to Lightsail**:  
+This command will build the Docker image and push it to Lightsail.  
+```make build```
+
+3. **Deploy the Application**:  
+This command deploys the latest Docker image to the Lightsail service.  
+```make deploy```
+
+4. **Build, Push, and Deploy**:  
+This command runs both the `build` and `deploy` steps in one go.  
+```make build_and_deploy```
 
 ## Deployment
-This project is currently deployed on AWS Lightsail. More details on setup can be found in the [Lightsail documentation](https://aws.amazon.com/lightsail/).
+
+This project is currently deployed on AWS Lightsail using Docker. The deployment process involves the following steps:
+
+1. **Build Docker image** and **push to Lightsail**.
+2. **Create a Lightsail container service** (done during initialization).
+3. **Deploy the Docker image** to the service.
+
+You can use the provided `Makefile` commands to simplify this process.
 
 ## Contact
 - **Dr. Mathew Divine**

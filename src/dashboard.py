@@ -74,7 +74,7 @@ with col1:
 
 # Right column for the panorama image
 with col2:
-    st.image("head_shot_round.png", use_column_width=True)
+    st.image("src/assets/images/head_shot_round.png", use_column_width=True)
 
 st.markdown(
 """
@@ -90,25 +90,26 @@ st.markdown(
 )
 
 cover_letter = """
-Sehr geehrte Damen und Herren,
+To whom it concerns:
 
-mit über 15 Jahren Berufserfahrung im Bereich Data Engineering und Machine Learning biete ich umfassende Kenntnisse in der Entwicklung und Implementierung von Datenlösungen an, die perfekt mit den Anforderungen Ihrer Position als Product Owner für Data & Analytics übereinstimmen.
+With over 15 years of experience in Data Engineering and Machine Learning, I bring extensive expertise in developing and implementing data solutions that perfectly align with the requirements of your position as Product Owner for Data & Analytics.
 
-Laut meiner Selbsteinschätzung und Projekterfahrung habe ich umfangreiche Kompetenzen in Cloud-Technologien und Data Engineering aufgebaut. In den letzten 7+ Jahren habe ich Cloud-basierte Pipelines in AWS und OpenShift implementiert und dabei Technologien wie AWS Sagemaker, Snowflake, und Azure Cognitive Services genutzt, die auch im von Ihnen geforderten Umfeld relevant sind. Die Visualisierung meiner Erfahrung in der Radardiagramm zeigt einen herausragenden Fokus auf Data Engineering, Datenmodellierung und ETL-Prozesse, die ich in verschiedenen Projekten wie der Entwicklung eines klinischen Datenkatalogs oder der Bioinformatik-Pipeline angewendet habe.
+Based on my self-assessment and project experience, I have developed significant proficiency in cloud technologies and data engineering. Over the past 7+ years, I have implemented cloud-based pipelines in AWS and OpenShift, utilizing technologies such as AWS Sagemaker, Snowflake, and Azure Cognitive Services, which are also relevant in the environment you have described. My skills, as visualized in the radar diagram, highlight a strong focus on Data Engineering, Data Modeling, and ETL processes, which I have applied in various projects, including the development of a clinical data catalog and a bioinformatics pipeline.
 
-Im Bereich der Produktentwicklung und -leitung habe ich als Product Owner der Analytics Landing Page ein Team geleitet, das innovative Datenprodukte entwickelte, die in den Bereichen Business Intelligence und kognitive Suchfunktionen Anwendung fanden. Besonders relevant für Ihre Anforderungen an Datenarchitektur und Prototyping ist meine Erfahrung in der agilen Entwicklung von Datenlösungen, die ich in einem multinationalen Umfeld für einen der Top-20 Pharmaunternehmen aufgebaut habe. Hier habe ich zudem ein CI/CD-System für Genomassemblierungen implementiert, das in einer Petabyte-Skala operierte – ein klarer Beweis für meine Fähigkeit, komplexe Datenstrukturen und moderne Technologien erfolgreich zu managen.
+In the area of product development and management, I have led a team as Product Owner for the Analytics Landing Page, which developed innovative data products used in business intelligence and cognitive search functionalities. Particularly relevant to your requirements for data architecture and prototyping is my experience in the agile development of data solutions within a multinational environment for one of the top 20 pharmaceutical companies. In this role, I also implemented a CI/CD system for genome assemblies operating at a petabyte scale — clear evidence of my ability to successfully manage complex data structures and modern technologies.
 
-Zusätzlich zu den harten technischen Fähigkeiten (Cloud Computing, Datenvisualisierung, NLP, Snowflake, und Python) weise ich laut meiner Selbsteinschätzung auch starke Soft Skills auf, insbesondere in den Bereichen Teamführung, kreatives Denken und Projektmanagement. Diese Fähigkeiten habe ich in diversen Führungspositionen unter Beweis gestellt, zuletzt als Interim Head of Data Science, wo ich agile Teams coache und digitale Initiativen leitete.
+In addition to technical skills (Cloud Computing, Data Visualization, NLP, Snowflake, and Python), my self-assessment also highlights strong soft skills, particularly in leadership, creative thinking, and project management. I have demonstrated these abilities in various leadership roles, most recently as Interim Head of Data Science and Head of Digital Lab, where I coached agile teams and led digital initiatives.
 
-Meine analytische Denkweise und Problemlösungskompetenz – ebenfalls aus den Selbstbewertungstabellen ersichtlich – unterstützen mich dabei, effiziente Lösungen zu entwickeln, die den Anforderungen sowohl des Geschäfts als auch der Technologie gerecht werden.
+My analytical thinking and problem-solving skills, as shown in my self-assessment, support me in developing efficient solutions that meet both business and technology requirements.
 
-Mit meinen herausragenden Kommunikationsfähigkeiten in Deutsch und Englisch kann ich nahtlos in einem internationalen Umfeld arbeiten und die Zusammenarbeit zwischen Geschäft und IT fördern.
+With my outstanding communication skills in both German and English, I can seamlessly work in an international environment and foster collaboration between business and IT.
 
-Ich wäre begeistert, mein fundiertes Wissen und meine vielfältigen Erfahrungen in Ihr Team einzubringen und freue mich auf ein persönliches Gespräch, um zu erörtern, wie ich Ihre Unternehmensziele optimal unterstützen kann.
+I would be thrilled to bring my comprehensive knowledge and diverse experience to your team and look forward to a personal conversation to discuss how I can optimally support your company’s goals.
 
-Vielen Dank für die Berücksichtigung meiner Bewerbung.
+Thank you for considering my application.
 
-Mit freundlichen Grüßen,\n
+Best regards,
+
 Dr. Mathew Divine
 """
 st.write(cover_letter)
@@ -121,7 +122,7 @@ st.markdown(
 # Hard Skills Table and Radar Plot
 st.subheader("Hard Skills Self-Assessment")
 
-hard_skills = pd.read_csv("hard_skills.csv", index_col=None)
+hard_skills = pd.read_csv("src/assets/docs/hard_skills.csv", index_col=None)
 st.table(hard_skills)
 
 
@@ -161,7 +162,7 @@ plot_radar(hard_skills, "Hard Skills Radar Chart")
 
 # Soft Skills Table and Radar Plot
 st.subheader("Soft Skills Self-Assessment")
-soft_skills = pd.read_csv("soft_skills.csv", index_col=None)
+soft_skills = pd.read_csv("src/assets/docs/soft_skills.csv", index_col=None)
 st.table(soft_skills)
 
 # Plotting radar chart for Soft Skills
@@ -173,7 +174,7 @@ st.markdown(
 )
 
 # Resume Download Button
-with open("FullResume.pdf", "rb") as pdf_file:
+with open("src/assets/docs/FullResume.pdf", "rb") as pdf_file:
     pdf_bytes = pdf_file.read()
     st.download_button(label="Download Full Resume with Comple Project List", data=pdf_bytes, file_name="FullResume.pdf", mime="application/pdf")
 

@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b691dee-2172-4fb7-95fd-956c3782cad2" name="Changes" comment="Initial commit of streamlit dashboard project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lightsail/build_and_push_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lightsail/config.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lightsail/create_service.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lightsail/deploy_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.lightsail/local_build_deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/FullResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/FullResume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/hard_skills.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/hard_skills.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/docs/soft_skills.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/soft_skills.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/head_shot_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/head_shot_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +58,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/docs" />
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
@@ -66,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729605135136</updated>
       <workItem from="1729605137283" duration="12436000" />
-      <workItem from="1729679712755" duration="70000" />
+      <workItem from="1729679712755" duration="10265000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of streamlit dashboard project">
       <option name="closed" value="true" />
@@ -76,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729635113662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit of streamlit dashboard project">
+      <option name="closed" value="true" />
+      <created>1729679822640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729679822640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
