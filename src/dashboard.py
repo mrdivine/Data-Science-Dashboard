@@ -4,18 +4,6 @@ import plotly.graph_objects as go
 
 # Basic setup
 st.set_page_config(page_title="Dr. Mathew Divine: Expert Data Scientist & AI Strategist", layout="centered")
-ms = st.session_state
-if "themes" not in ms:
-    ms.themes = {"current_theme": "light",
-                 "refreshed": True,
-
-                 "light": {"theme.base": "dark",
-                           "theme.backgroundColor": "black",
-                           "theme.primaryColor": "#c98bdb",
-                           "theme.secondaryBackgroundColor": "#5591f5",
-                           "theme.textColor": "white",
-                           "button_face": "🌜"}
-                 }
 
 # Custom CSS for vertical centering
 st.markdown(
@@ -33,6 +21,7 @@ st.markdown(
         line-height: 0.1; /* Reduces the space between the h2 lines */
         margin-bottom: 3px; /* This can add some breathing room under the h2 */
         letter-spacing: 1px; /* This can add some breathing room under the h2 */
+        white-space: nowrap; /* prevent overlapping h2 lines */
     }
     .title-h1 {
         margin-bottom: 40px; /* Adds space between h1 and h2 */
@@ -63,9 +52,9 @@ with col1:
         <div class="centered">
             <div>
                 <h1 class="title-h1">Dr. Mathew Divine</h1>
-                <h2>Expert Data Scientist</h2>
+                <h2>Expert in Data Analytics</h2>
                 <h2>&</h2>
-                <h2>AI Strategist</h2>
+                <h2>AI Strategy</h2>
             </div>
         </div>
         """,
@@ -110,9 +99,9 @@ Thank you for considering my application.
 
 Best regards,
 
-Dr. Mathew Divine
 """
 st.write(cover_letter)
+st.image("src/assets/images/signature.png", width=300)
 st.markdown(
 """
 ---
