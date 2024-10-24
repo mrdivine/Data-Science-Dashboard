@@ -36,7 +36,7 @@ cd Data-Science-Dashboard
 ```
 3. **Run the Streamlit app**:
 ```bash
-streamlit run app/dashboard.py
+streamlit run app/Home.py
 ```
 4. **Building and running Docker locally**:
 ```bash
