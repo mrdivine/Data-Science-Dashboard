@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+#from pages import page1, page2
 
 # Basic setup
-st.set_page_config(page_title="Dr. Mathew Divine: Expert Data Scientist & AI Strategist", layout="centered")
+st.set_page_config(page_title="Dr. Mathew Divine: Expert Data Analysis & AI Strategy", layout="centered")
+
 
 # Custom CSS for vertical centering
 st.markdown(
@@ -178,3 +180,4 @@ st.markdown("""
 Frankfurter Region, Deutschland\n
 [LinkedIn](https://www.linkedin.com/in/dr-mathew-divine/) | [Google Scholar](https://scholar.google.de/citations?user=wGJeTZQAAAAJ&hl=en) | [Check out this GitHub Repo](https://github.com/mrdivine/Data-Science-Dashboard)
 """)
+
