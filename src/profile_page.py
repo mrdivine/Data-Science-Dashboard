@@ -6,6 +6,7 @@ from components.cover_letter import CoverLetterComponent
 from components.contact import ContactInfoComponent
 from components.button import ResumeDownloadButtonComponent
 from config import Config
+from pathlib import Path
 
 
 class ProfilePageMaker:
@@ -23,6 +24,8 @@ class ProfilePageMaker:
         ).display()
 
         st.title(self.config["profile_title"])
+        with st.expander("Profile Details", expanded=False):
+            st.markdown(Path(self.config["job_profile_file"]).read_text(), unsafe_allow_html=True)
 
         CoverLetterComponent(
             cover_letter_file=self.config["cover_letter_file"],
@@ -51,13 +54,17 @@ class ProfilePageMaker:
 
         # Display data with RadarChartComponent
         st.title("Job Profile Skills Assessment")
-        st.table(job_profile_skills)
+        with st.expander("Job Profile Skills Table", expanded=False):
+            st.table(job_profile_skills)
+
         RadarChartComponent(job_profile_skills, "Job Profile Skills Radar Chart").display()
         st.title("Candidate Skills Assessment")
-        st.table(candidate_skills)
+        with st.expander("Candidate Skills Table", expanded=False):
+            st.table(candidate_skills)
         RadarChartComponent(candidate_skills, "Candidate Skills Radar Chart").display()
         st.title("Requirements Assessment")
-        st.table(requirements_assessment)
+        with st.expander("Requirements Assessment Table", expanded=False):
+            st.table(requirements_assessment)
 
         st.markdown("---")
 
