@@ -1,0 +1,11 @@
+skill_type,skill_name,rating,relevant_experience
+hard,Data Product Management,9.0,"Experience in leading the development and management of data products, including data pipelines and ETL processes."
+hard,Agile and Scrum Methodologies,8.0,"Proficient in Agile and Scrum methodologies, managing product sprints and backlog prioritization."
+hard,Data Analytics Tools,9.0,"Deep knowledge of data analytics tools such as SQL, Python, R, Tableau, and Power BI."
+hard,A/B Testing,7.0,"Experience with A/B testing, user research, and data-driven decision-making for products."
+hard,Cloud Platforms,8.0,"Understanding of cloud platforms like AWS, Azure, Google Cloud, and their integration with data products."
+soft,Leadership and Collaboration,9.0,Excellent leadership skills to guide cross-functional teams and collaborate effectively.
+soft,Problem-Solving,8.0,Strong problem-solving abilities using data-driven insights to optimize product decisions.
+soft,Communication and Presentation,9.0,Exceptional communication skills to articulate product strategy to technical and non-technical stakeholders.
+soft,Attention to Detail,8.0,High attention to detail in delivering high-quality user experiences.
+soft,Organizational Skills,7.0,Strong organizational skills to manage multiple projects and priorities effectively.

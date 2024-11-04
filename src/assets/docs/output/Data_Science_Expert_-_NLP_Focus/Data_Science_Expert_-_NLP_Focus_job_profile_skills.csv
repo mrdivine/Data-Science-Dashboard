@@ -1,0 +1,18 @@
+skill_type,skill_name,rating,relevant_experience
+hard,Large Language Models (LLMs),9.0,Critical for developing advanced NLP systems in the Pharma industry.
+hard,Generative AI (genAI),8.0,Essential for creating AI models in the Pharma domain.
+hard,Voice-to-Text,7.0,Important for developing speech recognition systems.
+hard,Multimodal Language Models (LLMs),8.0,Crucial for handling diverse data formats in AI models.
+hard,Retrieval-Augmented Generation (RAG),7.0,Key for improving content generation with retrieval-based methods.
+hard,Langchain,6.0,Useful for managing and processing language data efficiently.
+hard,OpenAI API,8.0,Integral for leveraging OpenAI's capabilities in AI projects.
+hard,Guardrailing,6.0,Important for ensuring safety and reliability in AI systems.
+hard,Tokenizer,7.0,Critical for processing and tokenizing text data in NLP.
+hard,Vector Databases,6.0,Essential for storing and querying vector representations of data.
+hard,Deployment,8.0,Crucial for deploying AI models and pipelines in production environments.
+hard,Inferenzserver,7.0,Key for setting up inference servers for AI model predictions.
+hard,Datensatzerstellung,6.0,Important for creating datasets for training AI models.
+hard,Transformer,8.0,Critical for implementing state-of-the-art transformer models in NLP.
+hard,Automatisches Prompt-Engineering,7.0,Essential for automating prompt generation in AI systems.
+hard,Agents,6.0,Useful for developing AI agents for various tasks.
+soft,sehr gute Englischkentnisse,9.0,Critical for effective communication in an English-speaking work environment.

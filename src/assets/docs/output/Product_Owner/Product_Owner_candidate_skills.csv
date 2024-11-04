@@ -1,0 +1,11 @@
+skill_type,skill_name,rating,relevant_experience
+hard,Data Visualization,8.0,Led projects involving data visualization using tools like Tableau and Power BI.
+hard,Cloud Development,7.0,"Implemented projects on AWS cloud services, demonstrating cloud development skills."
+hard,LLM Prompt Prototyping,6.0,Utilized LLM prompt prototyping in projects related to lay document generation and analytics landing page.
+hard,Bioinformatics,7.0,"Led the development of bioinformatics pipelines for genome assembly algorithms, showcasing expertise in bioinformatics."
+hard,Semantic Search Algorithm Development,8.0,"Implemented semantic search capabilities with NLP pipelines and graph data models, demonstrating expertise in algorithm development."
+hard,NLP,8.0,"Led projects utilizing NLP for entity relationship models, gamification, and molecular property estimation."
+soft,Project Management,8.0,"Managed projects involving requirements gathering, entrepreneurship, and SCRUM leadership."
+soft,Team Leadership,9.0,"Coached teams, led digital lab execution strategy, and provided interim data science leadership, showcasing strong team leadership skills."
+soft,Interdisciplinary Collaboration,8.0,"Collaborated across disciplines in projects involving biomedicine, AI strategy, and digital transformation."
+soft,Stakeholder Engagement,8.0,"Engaged with stakeholders in projects related to digital transformation, data science, and product development."

@@ -1,0 +1,17 @@
+skill_type,skill_name,rating,relevant_experience
+hard,Large Language Models (LLMs),9.0,Experience in utilizing LLMs for data analysis and NLP projects.
+hard,Generative AI (genAI),8.0,Hands-on experience with genAI in biomedical applications.
+hard,Multimodal Language Models (LLMs),7.0,Experience with multimodal LLMs for diverse data processing.
+hard,Retrieval-Augmented Generation (RAG),7.0,Experience implementing RAG systems for content generation.
+hard,Langchain,6.0,Familiarity with Langchain for language data management.
+hard,OpenAI API,8.0,Experience using OpenAI API for AI model development.
+hard,Guardrailing,6.0,Awareness of guardrailing practices for AI system safety.
+hard,Tokenizer,7.0,Proficiency in tokenizing text data for NLP tasks.
+hard,Vector Databases,6.0,Experience working with vector databases for data storage.
+hard,Deployment,8.0,Experience deploying AI models in cloud environments.
+hard,Inferenzserver,7.0,Knowledge of setting up inference servers for model predictions.
+hard,Datensatzerstellung,6.0,Experience in creating datasets for AI model training.
+hard,Transformer,8.0,Proficiency in implementing transformer models for NLP tasks.
+hard,Automatisches Prompt-Engineering,7.0,Experience in automating prompt generation in AI systems.
+hard,Agents,6.0,Familiarity with developing AI agents for specific applications.
+soft,sehr gute Englischkentnisse,9.0,Fluency in English for effective communication in international projects.
