@@ -5,14 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b691dee-2172-4fb7-95fd-956c3782cad2" name="Changes" comment="Initial commit of streamlit dashboard project">
-      <change afterPath="$PROJECT_DIR$/src/Home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/config/candidate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Candidate/projects_list.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Landing/Business Analyst.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Landing/Data Engineer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Landing/Data Science Expert - NLP Focus.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Landing/Product Owner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/docs/input/Landing/Python Cloud Developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cover_letter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/radar_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cover_letter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/3_Data_Engineer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/4_Python_Cloud_Developer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/5_Business_Analyst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/6_Custom_Assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/profile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/job-profile-self-assessment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/job-profile-self-assessment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dashboard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/1_page_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/2_page_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/FullResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/input/Candidate/FullResume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/hard_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/soft_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/1_page_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/1_Product_Owner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/2_page_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/2_Data_Scientist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +53,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Markdown" />
         <option value="Python Script" />
       </list>
     </option>
@@ -40,6 +72,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.2_Data_Scientist.executor": "Debug",
+    "Python.assessment.executor": "Run",
+    "Python.bot.executor": "Debug",
+    "Python.bot_example.executor": "Debug",
+    "Python.cover_letter.executor": "Run",
+    "Python.cover_letter_bot.executor": "Debug",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "side-panel",
     "node.js.detected.package.eslint": "true",
@@ -48,15 +88,123 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/docs" />
-      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/output/assessments" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/output" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/input/Landing" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/input/Candidate" />
+      <recent name="$PROJECT_DIR$/src/assets/docs" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="2_Data_Scientist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pages/2_Data_Scientist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="assessment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/assessment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cover_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cover_letter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.cover_letter" />
+        <item itemvalue="Python.assessment" />
+        <item itemvalue="Python.2_Data_Scientist" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -76,6 +224,12 @@
       <updated>1729605135136</updated>
       <workItem from="1729605137283" duration="12436000" />
       <workItem from="1729679712755" duration="10265000" />
+      <workItem from="1730117071969" duration="32915000" />
+      <workItem from="1730283090426" duration="21336000" />
+      <workItem from="1730361424189" duration="16812000" />
+      <workItem from="1730408771170" duration="4891000" />
+      <workItem from="1730560922011" duration="2575000" />
+      <workItem from="1730724810173" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of streamlit dashboard project">
       <option name="closed" value="true" />
@@ -105,5 +259,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit of streamlit dashboard project" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit of streamlit dashboard project" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$cover_letter.coverage" NAME="cover_letter Coverage Results" MODIFIED="1730372199347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$bot.coverage" NAME="bot Coverage Results" MODIFIED="1730121057516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$cover_letter_bot.coverage" NAME="cover_letter_bot Coverage Results" MODIFIED="1730213160619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$2_Data_Scientist.coverage" NAME="2_Data_Scientist Coverage Results" MODIFIED="1730370905135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pages" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$assessment.coverage" NAME="assessment Coverage Results" MODIFIED="1730372135430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$main.coverage" NAME="main Coverage Results" MODIFIED="1730378673725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/job_profile_self_assessment$bot_example.coverage" NAME="bot_example Coverage Results" MODIFIED="1730206363393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

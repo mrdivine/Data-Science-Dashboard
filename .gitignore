@@ -8,3 +8,5 @@ venv/
 build/
 *.dockerignore
 .idea
+src/assets/output/assessments/
+*egg-info

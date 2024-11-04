@@ -1,0 +1,8 @@
+{
+    "profile_title": "Product Owner",
+    "job_profile_file": "assets/docs/input/Product_Owner/Product_Owner_job_profile.md",
+    "cover_letter_file": "assets/docs/output/Product_Owner/Product_Owner_cover_letter.md",
+    "job_profile_skills_file": "assets/docs/output/Product_Owner/Product_Owner_job_profile_skills.csv",
+    "candidate_skills_file": "assets/docs/output/Product_Owner/Product_Owner_candidate_skills.csv",
+    "requirements_assessment_file": "assets/docs/output/Product_Owner/Product_Owner_requirements_assessment.csv"
+}

@@ -1,0 +1,4 @@
+requirement_name,self_assessment_score,related_experience,rationale
+AWS & Azure Cloud-Services,7.0,['Experience deploying AI models on AWS and Azure cloud platforms.'],The candidate has experience with cloud services but may need further depth in specific AWS and Azure services related to the job.
+Azure OpenAI Assistants API,8.0,['Experience using OpenAI API for AI model development.'],The candidate's proficiency with OpenAI API can be directly applied to working with Azure OpenAI Assistants API.
+ML-Ops-Erfahrung,6.0,['Experience in deploying and managing ML models in production environments.'],"While the candidate has some ML-Ops experience, further exposure to specific ML-Ops practices may be beneficial for this role."

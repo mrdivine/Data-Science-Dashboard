@@ -1,0 +1,8 @@
+{
+    "profile_title": "Business Analyst",
+    "job_profile_file": "assets/docs/input/Business_Analyst/Business_Analyst_job_profile.md",
+    "cover_letter_file": "assets/docs/output/Business_Analyst/Business_Analyst_cover_letter.md",
+    "job_profile_skills_file": "assets/docs/output/Business_Analyst/Business_Analyst_job_profile_skills.csv",
+    "candidate_skills_file": "assets/docs/output/Business_Analyst/Business_Analyst_candidate_skills.csv",
+    "requirements_assessment_file": "assets/docs/output/Business_Analyst/Business_Analyst_requirements_assessment.csv"
+}

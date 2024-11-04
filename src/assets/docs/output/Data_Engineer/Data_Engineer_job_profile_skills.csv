@@ -1,0 +1,12 @@
+skill_type,skill_name,rating,relevant_experience
+hard,"Cloud Platforms (AWS, Azure, Google Cloud)",9.0,"Experience with AWS Glue, Azure Data Factory, BigQuery, Dataproc, Google Cloud Storage in data storage and processing."
+hard,"Data Processing Frameworks (Spark, Kafka, Airflow)",8.0,"Strong experience in managing ETL workflows and real-time data streams using Apache Spark, Kafka, and Airflow."
+hard,"Programming Languages (Python, SQL, Scala)",7.0,"Proficiency in Python, SQL, and Scala for building data pipelines and optimizing data storage solutions."
+hard,"Model Deployment and Serving Technologies (SageMaker, Vertex AI, Azure ML)",8.0,"Knowledge of model deployment tools like AWS SageMaker, Vertex AI, and Azure Machine Learning for integrating AI models."
+hard,Generative AI Models and Frameworks,7.0,"Familiarity with generative AI models and frameworks like Hugging Face Transformers, LangChain, and OpenAI’s API for AI model implementation."
+hard,"DevOps Practices for Cloud (CI/CD, Docker, Kubernetes)",6.0,"Proficiency in DevOps practices for cloud environments, including CI/CD, containerization with Docker, and Kubernetes."
+soft,Problem-Solving,9.0,Strong problem-solving skills with a proactive approach to optimizing data architectures and resolving complex data engineering issues.
+soft,Communication and Collaboration,8.0,"Excellent communication and collaboration skills for working effectively with cross-functional teams, including data science, machine learning, and product teams."
+soft,Technical Requirements Translation,7.0,Ability to translate complex technical requirements into practical data engineering solutions aligned with AI and business objectives.
+soft,Attention to Detail,8.0,"High attention to detail, particularly in ensuring data quality and system reliability."
+soft,Project Management,7.0,Strong project management skills with the ability to manage multiple priorities and deliver in a fast-paced environment.
