@@ -20,8 +20,8 @@ the job profile at hand, a a combination of prompts with instructions on how to 
 	- We have the Top Five automatically created.. This is good. But, the quality is falling behind. Therefore, we need to do something to ensure consistency and the legitimacy of the assessment. I'm thinking about a few different methods.
 		- [ ] Change the prompt: use one-shot learning
 		- UI Changes
-			- [ ] show output in collapsable units
-			- [ ]  Show the job-profile in a collapsable format
+			- [x] ~~Show output in collapsable units~~
+			- [x] ~~Show the job-profile in a collapsable format~~
 			- [ ] Look into better mechanisms for showing the newly generated page and saving in streamlit
 		- [ ] Add a moderation step for assessing the quality of the generated skills-assessment and cover letter
 - [ ] Custom Assessment for any Freelancer for any Project
