@@ -6,7 +6,7 @@ include .lightsail/config.env
 # Define default target
 .PHONY: init build deploy all
 
-# Target to initialize: create instance and container service
+# Target to initialize: container service
 init:
 	@echo "Initializing Lightsail container service..."
 	@bash .lightsail/create_service.sh
