@@ -11,6 +11,27 @@ the job profile at hand, a a combination of prompts with instructions on how to 
 - **Downloadable Full Resume**: Available as a PDF.
 - **Hosted with Docker and AWS Lightsail**: Containerized and cloud-deployed.
 
+## Roadmap
+- [ ] Introduction Video
+	- [ ] create the script
+	- [ ] record first iteration
+- [x] Top Five Job Profiles ✅ 2024-11-04
+- [ ] Custom Assessment for Dr. Mathew Divine
+	- We have the Top Five automatically created.. This is good. But, the quality is falling behind. Therefore, we need to do something to ensure consistency and the legitimacy of the assessment. I'm thinking about a few different methods.
+		- [ ] Change the prompt: use one-shot learning
+		- UI Changes
+			- [ ] show output in collapsable units
+			- [ ]  Show the job-profile in a collapsable format
+			- [ ] Look into better mechanisms for showing the newly generated page and saving in streamlit
+		- [ ] Add a moderation step for assessing the quality of the generated skills-assessment and cover letter
+- [ ] Custom Assessment for any Freelancer for any Project
+	- [ ] Add extra page for uploading both job-profile and projects list
+- [ ] Metrics with automatic posts
+	- [ ] Ask for consent for data usage
+	- [ ] prototype tracking changes for session
+	- [ ] create mechanism for making log files for the assessments
+	- [ ] Set up a routine for running analysis on extracted data
+
 ## Setup
 
 ### Prerequisites
