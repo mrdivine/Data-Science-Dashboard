@@ -19,19 +19,12 @@ class CoverLetterBotTool:
         self.config = Config(profile_title)
         self.llm = ChatOpenAI()
 
-    def load_job_profile_skills(self) -> str:
-        """Read job profile skills CSV file as a string for prompt injection."""
-        job_profile_skills_file = self.config.get("job_profile_skills_file")
-        if job_profile_skills_file:
-            return read_csv_as_string(self.config["job_profile_skills_file"])
-        raise FileNotFoundError("Job profile skills file path is missing in config.")
-
-    def load_candidate_skills(self) -> str:
-        """Read candidate skills CSV file as a string for prompt injection."""
-        candidate_skills_file = self.config["candidate_skills_file"]
-        if candidate_skills_file:
-            return read_csv_as_string(self.config["candidate_skills_file"])
-        raise FileNotFoundError("Candidate skills file path is missing in config.")
+    def load_requirements_assessment(self):
+        """Read requirements assessment CSV file as a string for prompt injection."""
+        requirements_assessment_file = self.config["requirements_assessment_file"]
+        if requirements_assessment_file:
+            return read_csv_as_string(requirements_assessment_file)
+        raise FileNotFoundError("Requirements assessment file path is missing in config.")
 
     def load_job_profile_title(self) -> str:
         """Read the job profile title from the config file as a string for prompt injection."""
@@ -58,11 +51,8 @@ class CoverLetterBotTool:
         For inspiration and understanding of the Candidates Executive Summary:
         {self.load_executive_summary()}
 
-        The objective Candidate's Skills Assessment on which to base your analysis :
-        {self.load_candidate_skills()}
-        
-        The Objective Job Profile Skills Assessment on which to base your analysis:
-        {self.load_job_profile_skills()}
+        The reuirements assessment for you to undersatnd how well the applications given experience matches the job profile requirements:
+        {self.load_requirements_assessment()}
 
         **Instructions**:
         - Make a bridge between the job profile skills and the candidate skills.
@@ -74,8 +64,8 @@ class CoverLetterBotTool:
 
 
         **Expected Output**:
-        A single cover letter that objectively highlights the candidate's strengths, identifies areas of partial fit, and emphasizes complementary skills.
-        written in markdown. You should have an Objective Overview, Relevant Projects, Addressing Gaps, and Polished Closing as part of the cover letter.
+        A single cover letter written in the voice of the candidate that objectively highlights the candidate's strengths, identifies areas of partial fit, and emphasizes complementary skills.
+        written in markdown. You should avoid extensive use of headings, and prefer a more personal approach in the form of a letter, without the heading. Just Dear,... or to whom it concerns" as the beginning.
         close the letter with just "Sincerley",
         """
 

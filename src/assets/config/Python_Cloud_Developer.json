@@ -4,5 +4,5 @@
     "cover_letter_file": "assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_cover_letter.md",
     "job_profile_skills_file": "assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_job_profile_skills.csv",
     "candidate_skills_file": "assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_candidate_skills.csv",
-    "requirements_assessment_file": "assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_requirements_assessment.csv"
+    "requirements_assessment_file": "assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_requirements_assessment.json"
 }

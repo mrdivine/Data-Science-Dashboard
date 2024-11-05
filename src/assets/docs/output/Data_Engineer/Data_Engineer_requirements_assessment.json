@@ -1,0 +1,46 @@
+[
+    {
+        "requirement_name": "Proficiency in Major Cloud Platforms",
+        "requirement_type": "Essential",
+        "related_experience": "Extensive experience in cloud development and data processing tools on AWS, including AWS SageMaker, and other cloud services. Proficient in orchestrating ETL workflows and real-time data streams using tools like Apache Spark and Kafka.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology at Freelancer",
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms at BI X GmbH"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has demonstrated strong experience in cloud development, data processing, and ETL workflows, aligning well with the requirement. While the candidate has worked on AWS services, there may be room for further development in other cloud platforms like Azure and Google Cloud, hence the score of 8."
+    },
+    {
+        "requirement_name": "Strong Experience with Data Processing Frameworks",
+        "requirement_type": "Essential",
+        "related_experience": "Significant experience with data processing frameworks such as Apache Spark, Kafka, and Airflow for managing ETL workflows and real-time data streams.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology at Freelancer",
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms at BI X GmbH"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated strong expertise in data processing frameworks like Apache Spark, Kafka, and Airflow through projects involving ETL workflows and real-time data streams. The candidate's experience aligns well with the requirement, justifying a high self-assessment score of 9."
+    },
+    {
+        "requirement_name": "Knowledge of Model Deployment and Serving Technologies",
+        "requirement_type": "Essential",
+        "related_experience": "Familiarity with model deployment and serving technologies like AWS SageMaker, Vertex AI, or Azure Machine Learning, to integrate AI models with data pipelines.",
+        "examples": [
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms at BI X GmbH",
+            "Bespoke Drug Discovery and Market Intelligence Web App at BI X GmbH"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has some exposure to model deployment and serving technologies like AWS SageMaker through previous projects. While the candidate has worked on integrating AI models with data pipelines, there is room for further deepening knowledge in this area, leading to a self-assessment score of 7."
+    },
+    {
+        "requirement_name": "Proficiency in DevOps Practices for Cloud",
+        "requirement_type": "Desirable",
+        "related_experience": "Experience in DevOps practices for cloud environments, including CI/CD, containerization with Docker, Kubernetes, and Infrastructure-as-Code (IaC) using tools like Terraform or CloudFormation.",
+        "examples": [
+            "Product Owner of Analytics Landing Page at BI X GmbH",
+            "Data Science Hackathon Utilizing Generative AI to Generate Novel Medicinal Molecules at BI X GmbH"
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "The candidate has some exposure to DevOps practices for cloud environments, including CI/CD and containerization with Docker. However, there is a need for further experience in areas like Kubernetes and Infrastructure-as-Code (IaC) using tools like Terraform or CloudFormation, leading to a self-assessment score of 6."
+    }
+]

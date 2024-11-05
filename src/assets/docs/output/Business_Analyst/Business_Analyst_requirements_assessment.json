@@ -1,0 +1,33 @@
+[
+    {
+        "requirement_name": "Business Process Modeling",
+        "requirement_type": "Essential",
+        "related_experience": "Led CRM data normalization and cleaning project with visualization using Sankey Diagram. Implemented genAI-first web crawling strategy for data quality challenges on AWS.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has directly led a project involving business process modeling and data normalization, demonstrating a strong understanding of the requirement and practical experience in implementing solutions."
+    },
+    {
+        "requirement_name": "Data Analysis and Reporting",
+        "requirement_type": "Essential",
+        "related_experience": "Conducted data analysis and generated reports to provide insights into business operations. Developed ETL processes for creating a clinical data catalogue and utilized ontologies for data normalization.",
+        "examples": [
+            "Clinical Data Catalogue"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has extensive experience in data analysis, reporting, and ETL processes, showcasing a high level of proficiency in this requirement. The specific project example demonstrates a deep understanding and successful implementation of data analysis techniques."
+    },
+    {
+        "requirement_name": "Project Management",
+        "requirement_type": "Desirable",
+        "related_experience": "Led multiple projects including CRM data normalization, digital lab strategy development, and lay document generation system. Coached teams, developed execution strategies, and facilitated digital transformation initiatives.",
+        "examples": [
+            "Digital Execution Strategy Development",
+            "Lay Document Generation Using RAG System"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has a solid background in project management, demonstrated by leading various projects and coaching teams. While the experience is significant, there is room for further development in this area to align with the job profile's requirements."
+    }
+]

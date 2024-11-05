@@ -1,0 +1,32 @@
+[
+    {
+        "requirement_name": "Python Proficiency",
+        "requirement_type": "Essential",
+        "related_experience": "Extensive experience in Python development, with a focus on data processing, visualization, and geospatial libraries",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has led projects involving Python development, data processing, and cloud development, showcasing a strong foundation in Python skills. The candidate's experience aligns well with the requirement, but there is room for further growth and specialization."
+    },
+    {
+        "requirement_name": "Cloud Platform Deployment",
+        "requirement_type": "Essential",
+        "related_experience": "Experience in deploying and managing applications on major cloud platforms like AWS, Azure, or Google Cloud Platform",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated expertise in deploying applications on AWS, aligning well with the requirement. The candidate's experience and skills in cloud deployment are highly relevant to the job profile."
+    },
+    {
+        "requirement_name": "GIS Platforms and Web-Based Mapping Frameworks",
+        "requirement_type": "Desirable",
+        "related_experience": "Familiarity with GIS platforms (ArcGIS, QGIS) and web-based mapping frameworks for creating custom geospatial visualizations",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "While the candidate has some exposure to GIS platforms and mapping frameworks in a project context, further hands-on experience and specialization in this area would be beneficial to meet the desired level of expertise for the job profile."
+    }
+]

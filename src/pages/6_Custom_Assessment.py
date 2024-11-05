@@ -64,7 +64,7 @@ else:
     """)
 
     # Job profile input field
-    job_profile_input = st.text_area("Paste your job profile here...",
+    job_profile_input = st.text_area("Job Profile",
                                      height=300,
                                      placeholder=f"""{c["profile_title"]}\n\n{Path(c["job_profile_file"]).read_text() }""")
 
