@@ -2,6 +2,7 @@ import json
 import pandas as pd
 from pathlib import Path
 import re
+import json
 
 
 def save_to_file(filename: str, content: str):
@@ -33,7 +34,7 @@ def parse_executive_summary(filepath: str) -> str:
     return match.group(1).strip() if match else ""
 
 
-def read_and_clean_csv(filepath):
+def read_and_clean_csv(filepath)-> pd.DataFrame:
     # Step 1: Read the CSV file
     df = pd.read_csv(filepath)
 
@@ -67,3 +68,10 @@ def format_ratings(data):
         lambda x: f"{x:.1f}".rstrip('0').rstrip('.') if isinstance(x, float) else str(x))
     return data
 
+
+def load_json(json_file_path):
+    """Load the structured output from a JSON file."""
+    with open(json_file_path, "r") as json_file:
+        requirements_data = json.load(json_file)
+    # Verify by printing the contents (optional)
+    return requirements_data

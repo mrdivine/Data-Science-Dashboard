@@ -1,6 +1,66 @@
-requirement_name,self_assessment_score,related_experience,rationale
-Bachelor’s or Master’s degree in Computer Science or Data Engineering,9.0,"['Doctorate in Molecular Imaging', 'Masters in Biomedical Engineering', 'Bachelors in Physics and Mathematics']","The candidate holds a Doctorate in Molecular Imaging, a Masters in Biomedical Engineering, and a Bachelors in Physics and Mathematics, which align well with the educational requirements."
-"5+ years of experience in data engineering, with at least 2 years on cloud platforms and AI-driven projects",8.0,"['Project Lead of CRM Cleaning and AI-first Web-Scraping Technology', 'Head of Digital Lab at Boehringer-Ingelheim']","The candidate has over 15+ years of experience in data science and AI projects, with specific projects showcasing experience in AI-driven projects on cloud platforms."
-"Proven track record of implementing data infrastructure for machine learning models, with emphasis on generative AI models",7.0,"['Project Lead of CRM Cleaning and AI-first Web-Scraping Technology', 'Head of Digital Lab at Boehringer-Ingelheim']","The candidate has demonstrated experience in implementing AI-first web crawling strategies and AI models in previous projects, showcasing proficiency in this requirement."
-"Experience in industries leveraging AI heavily such as FinTech, HealthTech, or E-commerce",6.0,['Head of Digital Lab at Boehringer-Ingelheim'],"Although the candidate's experience is not directly in FinTech, HealthTech, or E-commerce, the projects in the pharmaceutical industry demonstrate transferable skills in AI and data engineering for regulatory environments."
-"Certifications in relevant technologies like AWS Certified Big Data – Specialty, Google Professional Data Engineer, or Microsoft Certified: Azure Data Engineer Associate",6.0,"['Project Lead of CRM Cleaning and AI-first Web-Scraping Technology', 'Head of Digital Lab at Boehringer-Ingelheim']","While the candidate may not have specific certifications, the practical experience in leading AI and data projects on cloud platforms serves as a strong foundation for certification readiness."
+[
+    {
+        "requirement_name": "Proficiency in major cloud platforms (AWS, Azure, Google Cloud) with experience in data storage, orchestration, and processing tools such as AWS Glue, Azure Data Factory, BigQuery, Dataproc, and Google Cloud Storage",
+        "requirement_type": "Essential",
+        "related_experience": "Experience in developing and integrating AI models into business strategies and technical solutions in the cloud, ensuring high-quality outcomes.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has led a project involving CRM data normalization and cleaning on AWS and implemented a genAI-first web crawling strategy on AWS, showcasing strong cloud platform proficiency and experience with data storage and processing tools."
+    },
+    {
+        "requirement_name": "Strong experience with data processing frameworks, including Apache Spark, Kafka, and Airflow, for managing ETL workflows and real-time data streams",
+        "requirement_type": "Essential",
+        "related_experience": "Led a project involving complex ETL processes using Airflow, advanced NLP for entity recognition, and the development of an advanced search feature utilizing biomedical ontologies.",
+        "examples": [
+            "Data Science Expert & AI Strategist - Freelancer",
+            "Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has extensive experience in managing ETL workflows and real-time data streams, evident from leading projects utilizing data processing frameworks like Airflow and Kafka, demonstrating a high level of proficiency in this requirement."
+    },
+    {
+        "requirement_name": "Expertise in programming languages like Python, SQL, and Scala for building data pipelines and optimizing data storage solutions",
+        "requirement_type": "Essential",
+        "related_experience": "Led various projects involving Python for data engineering tasks, NLP, machine learning, and AI model integration with data pipelines.",
+        "examples": [
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim",
+            "Senior Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated expertise in Python for building data pipelines, optimizing data storage solutions, and integrating AI models, showcasing a strong proficiency in programming languages essential for the role."
+    },
+    {
+        "requirement_name": "Knowledge of model deployment and serving technologies such as AWS SageMaker, Vertex AI, or Azure Machine Learning to integrate AI models with data pipelines",
+        "requirement_type": "Essential",
+        "related_experience": "Led projects involving the development of web applications for drug discovery and market intelligence, focusing on complex ETL processes and advanced NLP for entity recognition.",
+        "examples": [
+            "Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has experience in deploying models using AWS SageMaker and integrating AI models with data pipelines, although there is room for further development and exploration of other model deployment technologies like Vertex AI."
+    },
+    {
+        "requirement_name": "Familiarity with generative AI models (e.g., transformer-based architectures) and frameworks like Hugging Face Transformers, LangChain, or OpenAI\u2019s API for AI model implementation and tuning",
+        "requirement_type": "Desirable",
+        "related_experience": "Experience in developing and integrating generative AI models into business strategies and technical solutions in the cloud.",
+        "examples": [
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim",
+            "Senior Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "While the candidate has experience in integrating AI models, there is limited specific mention of working with generative AI models or frameworks like Hugging Face Transformers, indicating room for further development in this area."
+    },
+    {
+        "requirement_name": "Proficiency in DevOps practices for cloud (CI/CD, containerization with Docker, Kubernetes) and Infrastructure-as-Code (IaC) using Terraform or CloudFormation",
+        "requirement_type": "Desirable",
+        "related_experience": "Led projects involving the development of web applications and data infrastructure on the cloud, emphasizing collaboration with cross-functional teams and stakeholders.",
+        "examples": [
+            "Product Owner of Analytics Landing Page",
+            "Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has experience in developing data infrastructure on the cloud and working with cross-functional teams, demonstrating proficiency in DevOps practices like CI/CD and containerization with Docker, with room for further development in Infrastructure-as-Code using Terraform or CloudFormation."
+    }
+]

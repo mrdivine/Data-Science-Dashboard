@@ -4,5 +4,5 @@
     "cover_letter_file": "assets/docs/output/Data_Engineer/Data_Engineer_cover_letter.md",
     "job_profile_skills_file": "assets/docs/output/Data_Engineer/Data_Engineer_job_profile_skills.csv",
     "candidate_skills_file": "assets/docs/output/Data_Engineer/Data_Engineer_candidate_skills.csv",
-    "requirements_assessment_file": "assets/docs/output/Data_Engineer/Data_Engineer_requirements_assessment.csv"
+    "requirements_assessment_file": "assets/docs/output/Data_Engineer/Data_Engineer_requirements_assessment.json"
 }

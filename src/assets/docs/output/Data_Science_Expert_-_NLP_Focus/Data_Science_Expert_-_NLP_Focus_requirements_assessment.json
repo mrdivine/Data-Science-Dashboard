@@ -1,0 +1,197 @@
+[
+    {
+        "requirement_name": "Large Language Models (LLMs)",
+        "requirement_type": "Must Have",
+        "related_experience": "Extensive experience in developing and integrating cutting-edge AI models into business strategies and technical solutions in the cloud, with a proven track record in mentoring teams and driving digital transformation initiatives resulting in cost savings and operational efficiencies.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has demonstrated strong experience in AI model development and integration, as well as successful project outcomes in line with the requirement. However, further specific examples of LLM utilization would enhance the score."
+    },
+    {
+        "requirement_name": "Generative AI (genAI)",
+        "requirement_type": "Must Have",
+        "related_experience": "Led projects focusing on genAI-first web crawling strategies and genAI modeling for lay document generation, showcasing expertise in genAI application and development within different project contexts.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Lay Document Generation Using RAG System"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has substantial experience in leading projects involving genAI strategies and modeling, demonstrating a high level of expertise in this area with successful project implementations."
+    },
+    {
+        "requirement_name": "Voice-to-Text",
+        "requirement_type": "Must Have",
+        "related_experience": "No direct examples of voice-to-text projects identified in the provided projects list, indicating potential room for further exploration or development in this specific area.",
+        "examples": [],
+        "self_assessment_score": 5.0,
+        "rationale": "While the candidate has comprehensive experience in various AI-related projects, there is a lack of direct evidence of voice-to-text project involvement. Further clarification or examples in this domain would increase the self-assessment score."
+    },
+    {
+        "requirement_name": "Multimodal Language Models (LLMs)",
+        "requirement_type": "Must Have",
+        "related_experience": "Utilized LLMs for various projects, including CRM data normalization, lay document generation, and analytics landing page development, showcasing experience in implementing LLMs in diverse contexts.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Lay Document Generation Using RAG System",
+            "Product Owner of Analytics Landing Page"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated strong experience in leveraging LLMs for different projects, indicating a solid understanding and practical application of multimodal language models across projects."
+    },
+    {
+        "requirement_name": "Retrieval-Augmented Generation (RAG)",
+        "requirement_type": "Must Have",
+        "related_experience": "Implemented RAG system for lay document generation, advising on best practices for LLM prompts and prompt chaining, showcasing expertise in RAG system development and utilization.",
+        "examples": [
+            "Lay Document Generation Using RAG System"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has practical experience in implementing RAG systems for project requirements, demonstrating proficiency in this area. However, additional examples or details could further support the self-assessment score."
+    },
+    {
+        "requirement_name": "Langchain",
+        "requirement_type": "Must Have",
+        "related_experience": "Utilized LangChain in the context of CRM data normalization and cleaning project, demonstrating familiarity with LangChain technology and its application in data projects.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has experience in using LangChain for a specific project, indicating some level of proficiency in this area. Further exploration or examples of LangChain usage could enhance the self-assessment score."
+    },
+    {
+        "requirement_name": "OpenAI API",
+        "requirement_type": "Must Have",
+        "related_experience": "No direct examples of OpenAI API integration identified in the provided projects list, suggesting potential room for further exploration or development in this specific area.",
+        "examples": [],
+        "self_assessment_score": 6.0,
+        "rationale": "While the candidate has extensive experience in AI projects, there is a lack of specific instances of OpenAI API integration. Providing concrete examples or experiences with OpenAI API would increase the self-assessment score."
+    },
+    {
+        "requirement_name": "Guardrailing",
+        "requirement_type": "Must Have",
+        "related_experience": "No specific examples related to guardrailing projects found in the provided projects list, indicating a gap in direct experience with guardrailing techniques or implementations.",
+        "examples": [],
+        "self_assessment_score": 4.0,
+        "rationale": "The candidate has not highlighted any projects directly involving guardrailing, suggesting a potential area for development or exploration in this specific requirement. Providing examples or experiences in guardrailing would improve the self-assessment score."
+    },
+    {
+        "requirement_name": "Tokenizer",
+        "requirement_type": "Must Have",
+        "related_experience": "Utilized tokenizers in various projects for data processing and model development, demonstrating hands-on experience with tokenization techniques within AI projects.",
+        "examples": [
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms",
+            "Bespoke Drug Discovery and Market Intelligence Web App"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has practical experience in using tokenizers for data processing and model development, showcasing proficiency in this area. Additional examples or details could further support the self-assessment score."
+    },
+    {
+        "requirement_name": "Vector Databases",
+        "requirement_type": "Must Have",
+        "related_experience": "Utilized vector databases for semantic search capabilities and knowledge graph development, demonstrating experience in implementing and working with vector databases for data management and analysis.",
+        "examples": [
+            "Clinical Data Catalogue"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated practical experience in utilizing vector databases for project requirements, showcasing proficiency in this area. The examples provided align well with the requirement."
+    },
+    {
+        "requirement_name": "Deployment",
+        "requirement_type": "Must Have",
+        "related_experience": "Led the deployment of AI models and pipelines on cloud services for various projects, showcasing expertise in deploying robust and scalable ML solutions in cloud environments.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Data Science Expert & AI Strategist - Freelancer"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has extensive experience in deploying AI models and pipelines on cloud services, demonstrating proficiency in deploying ML solutions in cloud environments for project requirements."
+    },
+    {
+        "requirement_name": "Inferenzserver",
+        "requirement_type": "Must Have",
+        "related_experience": "No specific examples of Inferenzserver projects identified in the provided projects list, indicating potential room for further exploration or development in this specific area.",
+        "examples": [],
+        "self_assessment_score": 5.0,
+        "rationale": "The candidate has not highlighted any direct experiences with Inferenzserver projects, suggesting a gap in practical exposure to this requirement. Providing specific examples or experiences with Inferenzserver would increase the self-assessment score."
+    },
+    {
+        "requirement_name": "Datensatzerstellung",
+        "requirement_type": "Must Have",
+        "related_experience": "Performed data catalog creation and ETL processes for clinical data integration, demonstrating experience in data set creation and data management for AI projects.",
+        "examples": [
+            "Clinical Data Catalogue"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has practical experience in data set creation and ETL processes for clinical data, showcasing proficiency in data management for AI projects. The provided example aligns well with the requirement."
+    },
+    {
+        "requirement_name": "Transformer",
+        "requirement_type": "Must Have",
+        "related_experience": "Utilized Transformer models in various projects for data processing and model development, showcasing hands-on experience with Transformer architectures within AI projects.",
+        "examples": [
+            "Clinical Data Catalogue",
+            "Lay Document Generation Using RAG System"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has practical experience in using Transformer models for data processing and model development, demonstrating proficiency in this area. The examples provided align well with the requirement."
+    },
+    {
+        "requirement_name": "Automatisches Prompt-Engineering",
+        "requirement_type": "Must Have",
+        "related_experience": "Led projects involving automatic prompt engineering and LLM prompt prototyping, showcasing expertise in automatic prompt engineering and LLM utilization for project requirements.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Lay Document Generation Using RAG System"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated strong experience in automatic prompt engineering and LLM prompt prototyping, showcasing proficiency in this area with successful project implementations."
+    },
+    {
+        "requirement_name": "Agents",
+        "requirement_type": "Must Have",
+        "related_experience": "No direct examples of projects involving agents found in the provided projects list, indicating a potential gap in direct experience with agent-based systems or implementations.",
+        "examples": [],
+        "self_assessment_score": 5.0,
+        "rationale": "The candidate has not highlighted any projects directly involving agents, suggesting a potential area for development or exploration in this specific requirement. Providing examples or experiences in agent-based systems would improve the self-assessment score."
+    },
+    {
+        "requirement_name": "sehr gute Englischkentnisse",
+        "requirement_type": "Must Have",
+        "related_experience": "Fluent in both English and German, with demonstrated proficiency in English language skills for effective communication and collaboration in international project environments.",
+        "examples": [],
+        "self_assessment_score": 10.0,
+        "rationale": "The candidate has confirmed fluency in both English and German, meeting the language proficiency requirement with a self-assessment score of 10."
+    },
+    {
+        "requirement_name": "AWS & Azure Cloud-Services",
+        "requirement_type": "Nice to Have",
+        "related_experience": "Led projects involving cloud services such as AWS and Azure for various AI projects, demonstrating experience in utilizing cloud services for project development and deployment.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Data Science Expert & AI Strategist - Freelancer"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has substantial experience in leading projects utilizing AWS and Azure cloud services, showcasing proficiency in leveraging cloud platforms for AI projects. The examples provided align well with the requirement."
+    },
+    {
+        "requirement_name": "Azure OpenAI Assistants API",
+        "requirement_type": "Nice to Have",
+        "related_experience": "No specific examples of projects involving Azure OpenAI Assistants API identified in the provided projects list, indicating potential room for further exploration or development in this specific area.",
+        "examples": [],
+        "self_assessment_score": 6.0,
+        "rationale": "While the candidate has experience in AI projects, there is a lack of direct evidence of Azure OpenAI Assistants API integration. Further clarification or examples in this domain would increase the self-assessment score."
+    },
+    {
+        "requirement_name": "ML-Ops-Erfahrung",
+        "requirement_type": "Nice to Have",
+        "related_experience": "Led projects involving ML-Ops practices and strategies for AI projects, showcasing experience in implementing ML-Ops methodologies and practices for project efficiency and scalability.",
+        "examples": [
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has demonstrated experience in leading projects related to ML-Ops practices, indicating familiarity with ML-Ops methodologies. Providing additional examples or details on ML-Ops implementation could further support the self-assessment score."
+    }
+]

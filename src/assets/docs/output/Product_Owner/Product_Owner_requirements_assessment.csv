@@ -1,6 +1,33 @@
-requirement_name,self_assessment_score,related_experience,rationale
-Product Lifecycle Management,7.0,"['Product Owner of Analytics Landing Page', 'Development of Bioinformatics Pipelines']","The candidate has experience in owning the end-to-end product lifecycle for analytics landing pages and bioinformatics pipelines, demonstrating proficiency but with some gap in direct data product lifecycle management."
-Agile Methodologies,8.0,"['Head of Digital Lab, CD&O - Boehringer-Ingelheim', 'Data Scientist - BI X GmbH']","The candidate has demonstrated proficiency in Agile methodologies through leadership roles in digital lab execution and data science projects, aligning well with the Agile requirements of the job profile."
-Data Visualization,8.0,"['Data Science Expert & AI Strategist - Freelancer', 'Data Scientist - BI X GmbH']","The candidate has extensive experience in data visualization projects, including CRM cleaning visualization and analytics landing page development, meeting the data visualization requirement effectively."
-User Story Development,6.0,"['Head of Digital Lab, CD&O - Boehringer-Ingelheim']","While the candidate has experience in coaching design thinking methodologies and digital execution strategy, there is a gap in direct user story development projects, leading to a moderate self-assessment score."
-Cloud Integration,7.0,"['Senior Data Scientist - BI X GmbH', 'Data Scientist - BI X GmbH']","The candidate has demonstrated cloud development expertise in projects involving bioinformatics pipelines and semantic search algorithms, indicating strong alignment with cloud integration requirements but with room for further specialized experience."
+[
+    {
+        "requirement_name": "Strong understanding of data product management, including familiarity with data pipelines, ETL processes, and data governance",
+        "requirement_type": "Essential",
+        "related_experience": "Led CRM data normalization and cleaning project, implemented genAI-first web crawling strategy on AWS, ensuring data quality and scalability. Experienced in managing cloud development projects.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has directly led a project involving data normalization, cleaning, and web crawling on AWS, demonstrating a strong understanding of data pipelines and ETL processes. The experience aligns well with the requirement, with room for further development in data governance."
+    },
+    {
+        "requirement_name": "Proficient in Agile and Scrum methodologies, with experience managing product sprints, user story development, and backlog prioritization",
+        "requirement_type": "Essential",
+        "related_experience": "Coached an international team on design thinking methodologies, developed digital transformation execution strategy based on Agile principles, and managed product development sprints and user story prioritization.",
+        "examples": [
+            "Digital Execution Strategy Development"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has experience coaching teams on methodologies similar to Agile, developing strategies based on Agile principles, and managing product development processes. While the candidate has relevant experience, further exposure to Scrum methodologies could enhance proficiency."
+    },
+    {
+        "requirement_name": "Deep knowledge of data analytics tools (SQL, Python, R) and data visualization platforms (Tableau, Power BI)",
+        "requirement_type": "Essential",
+        "related_experience": "Developed ETL processes in Python for clinical data catalog, utilized advanced NLP pipelines and graph data models for semantic search, and led hackathon projects focusing on AI and NLP.",
+        "examples": [
+            "Clinical Data Catalogue",
+            "Interdisciplinary Hackathon: Gamification of NLP Annotation in a Web App"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has extensive experience utilizing data analytics tools like Python and SQL, as well as data visualization platforms. The candidate's involvement in NLP and AI projects further strengthens their proficiency in these tools, showcasing a deep knowledge aligned with the requirement."
+    }
+]

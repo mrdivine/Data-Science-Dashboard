@@ -1,0 +1,54 @@
+[
+    {
+        "requirement_name": "Strong understanding of data product management, including familiarity with data pipelines, ETL processes, and data governance",
+        "requirement_type": "Essential",
+        "related_experience": "Led CRM data normalization and cleaning project, implemented genAI-first web crawling strategy on AWS for CRM data augmentation",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has directly led a project involving data normalization, cleaning, and web scraping with a focus on data governance and ETL processes. The experience with AWS aligns well with the requirement, but there is potential for further development in other areas of data product management."
+    },
+    {
+        "requirement_name": "Proficient in Agile and Scrum methodologies, with experience managing product sprints, user story development, and backlog prioritization",
+        "requirement_type": "Essential",
+        "related_experience": "Co-created processes for empowered decision-making, developed digital transformation execution strategy based on data, people, cloud infrastructure, and budget",
+        "examples": [
+            "Digital Execution Strategy Development"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has experience in developing and executing digital strategies using methodologies like design thinking and agile practices. While the candidate has demonstrated leadership in strategy development, further evidence of direct involvement in Agile product management processes could strengthen this assessment."
+    },
+    {
+        "requirement_name": "Deep knowledge of data analytics tools (SQL, Python, R) and data visualization platforms (Tableau, Power BI)",
+        "requirement_type": "Essential",
+        "related_experience": "Utilized Python for various projects including data visualization and AI model development, led the development of a web app for drug discovery and market intelligence",
+        "examples": [
+            "Bespoke Drug Discovery and Market Intelligence Web App"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has extensive experience using Python for data analytics and AI-related projects. The development of a web app for drug discovery showcases proficiency in utilizing data analytics tools effectively. While Tableau and Power BI experience is not explicitly mentioned, the candidate's strong Python skills are a solid foundation for learning new data visualization platforms."
+    },
+    {
+        "requirement_name": "Experience with A/B testing, user research, and data-driven product decision-making",
+        "requirement_type": "Essential",
+        "related_experience": "Developed digital transformation execution strategy based on data, people, cloud infrastructure, and budget, led a hackathon project focusing on utilizing generative AI to create novel medicinal molecules",
+        "examples": [
+            "Digital Execution Strategy Development",
+            "Data Science Hackathon Utilizing Generative AI"
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "The candidate has demonstrated involvement in strategy development based on data and innovative projects utilizing generative AI. However, direct experience with A/B testing and user research is not explicitly highlighted in the provided projects. Further evidence of hands-on experience in these areas would enhance the assessment for this requirement."
+    },
+    {
+        "requirement_name": "Understanding of cloud platforms and data storage solutions, such as AWS, Azure, or Google Cloud, and their integration with data products",
+        "requirement_type": "Essential",
+        "related_experience": "Led CRM data normalization and cleaning project on AWS, developed bioinformatics pipelines on AWS cloud services",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has significant experience working with AWS cloud services in multiple projects, showcasing a strong understanding of cloud platforms and their integration with data products. The direct involvement in developing bioinformatics pipelines on AWS further solidifies the assessment for this requirement."
+    }
+]

@@ -39,7 +39,7 @@ class Config:
             "cover_letter_file": f"assets/docs/output/{safe_title}/{safe_title}_cover_letter.md",
             "job_profile_skills_file": f"assets/docs/output/{safe_title}/{safe_title}_job_profile_skills.csv",
             "candidate_skills_file": f"assets/docs/output/{safe_title}/{safe_title}_candidate_skills.csv",
-            "requirements_assessment_file": f"assets/docs/output/{safe_title}/{safe_title}_requirements_assessment.csv"
+            "requirements_assessment_file": f"assets/docs/output/{safe_title}/{safe_title}_requirements_assessment.json"
         }
         # Ensure each directory in the config exists
         for key, filepath in config_content.items():
