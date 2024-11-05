@@ -1,7 +1,6 @@
 __pycache__/
 *.py[cod]
 .idea/workspace.xml
-
 .env
 venv/
 *.log

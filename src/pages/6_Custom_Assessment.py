@@ -3,6 +3,9 @@ import time
 import os
 import urllib.parse
 from pathlib import Path
+from config import Config
+
+c = Config("Business Analyst")
 
 
 # Helper function to generate the assessment content and save it to a directory
@@ -21,22 +24,19 @@ def generate_assessment_content(job_profile_text, assessment_id):
     (assessment_folder / "skills_assessment.txt").write_text(skills_assessment)
     (assessment_folder / "cover_letter.md").write_text(cover_letter)
 
-
-# Main App
-# st.set_page_config(page_title="Job Profile Assessment Tool")
-
 # Check for the assessment_id in the URL
-#params = st.experimental_get_query_params()
 params = st.query_params
 assessment_id = params.get("assessment_id", None)
 
-st.markdown(params)
+# Show params for Testing
+# st.markdown(params)
 
 # Display assessment if the assessment_id is available
 if assessment_id:
     assessment_folder = Path(f"src/assets/docs/output/assessments/{assessment_id}")
+    st.write("# debugging....")
     st.write(assessment_folder)
-    st.write(assessment_id)
+    st.write(f"{assessment_id} \n\n --- \n\n", unsafe_allow_html=True )
     if assessment_folder.exists():
         st.header("Your Custom Job Profile Assessment")
 
@@ -53,19 +53,28 @@ if assessment_id:
         st.error("This assessment does not exist. Please generate an assessment first.")
 else:
     # Show input form and assessment generation button
-    st.title("Custom Job Profile Assessment Tool")
+    st.title("Custom Assessment Tool")
+    st.markdown("""---""")
     st.write("""
         ### Instructions:
-        1. Paste the job profile into the text area below.
+        Assess Dr. Mathew Divine against your job profile and see if he is the right fit for your project. 
+        1. Paste your job profile into the text area below.
         2. Click "Generate Assessment".
         3. A unique link to view your custom assessment will be provided.
     """)
 
     # Job profile input field
-    job_profile_input = st.text_area("Paste your job profile here...", height=200)
+    job_profile_input = st.text_area("Paste your job profile here...",
+                                     height=300,
+                                     placeholder=f"""{c["profile_title"]}\n\n{Path(c["job_profile_file"]).read_text() }""")
 
-    # Button to generate assessment
-    if st.button("Generate Assessment"):
+
+# Button to generate assessment
+col1, col2 = st.columns([4, 11])
+with col2:
+    data_privacy_agreed = st.checkbox("I have read and agree to the [Liability Disclaimer and the Data Usage Policy](/Disclaimer)")
+with col1:
+    if st.button("Generate Assessment", disabled=not data_privacy_agreed):
         if job_profile_input.strip():
             with st.spinner("Generating your assessment..."):
                 # Generate a unique ID based on the current time
@@ -81,3 +90,14 @@ else:
                 st.markdown(f"### [View your custom assessment here]({profile_url})")
         else:
             st.error("Please enter a job profile to generate an assessment.")
+
+with st.expander("**(optional)** Add a Custom List of Projects"):
+        st.markdown("### Generate Custom Assessment for your Candidate  \n"
+                    "Place your candidate's project's list and other professional experience to create a custom assessment.  \n"
+                    "Add in a `Project Title`, `Bullet-Points (*)`, `soft-skills`, `hard-skills`, and `technologies` for as many projects"
+                    "that are relevant for the job profile. You can add extra fields just by adding a heading in Markdown\n"
+                    "followed by the relevant text. Below is a an example of what a project's list could look like using\n"
+                    "the project's list of Dr. Mathew Divine. ")
+        project_lists_input = st.text_area("Paste your list of projects here and other professional information...",
+                                           height=400,
+                                           placeholder=f"""{Path(c["candidate_projects_list_file"]).read_text()}""")
