@@ -1,37 +1,4 @@
-from pathlib import Path
-from assessment import JobProfileBotTool
-from cover_letter import CoverLetterBotTool
-
-# Main entry point
-if __name__ == "__main__":
-
-    # job_profile_name = "Product Owner"
-    # job_profile_text = Path(f"assets/docs/input/Landing/{job_profile_name}.md").read_text()
-    # JobProfileBotTool(job_profile_name, job_profile_text).run()
-    # CoverLetterBotTool(job_profile_name).run()
-    #
-    # job_profile_name = "Data Science Expert - NLP Focus"
-    # job_profile_text = Path(f"assets/docs/input/Landing/{job_profile_name}.md").read_text()
-    # JobProfileBotTool(job_profile_name, job_profile_text).run()
-    # CoverLetterBotTool(job_profile_name).run()
-    #
-    # job_profile_name = "Data Engineer"
-    # job_profile_text = Path(f"assets/docs/input/Landing/{job_profile_name}.md").read_text()
-    # JobProfileBotTool(job_profile_name, job_profile_text).run()
-    # CoverLetterBotTool(job_profile_name).run()
-    #
-    # job_profile_name = "Python Cloud Developer"
-    # job_profile_text = Path(f"assets/docs/input/Landing/{job_profile_name}.md").read_text()
-    # JobProfileBotTool(job_profile_name, job_profile_text).run()
-    # CoverLetterBotTool(job_profile_name).run()
-    #
-    # job_profile_name = "Business Analyst"
-    # job_profile_text = Path(f"assets/docs/input/Landing/{job_profile_name}.md").read_text()
-    # JobProfileBotTool(job_profile_name, job_profile_text).run()
-    # CoverLetterBotTool(job_profile_name).run()
-
-    job_profile_name = "Product Owner Special"
-    job_profile_text = """Sehr geehrter Herr Dr. Divine,
+Sehr geehrter Herr Dr. Divine,
 
     Für unseren Kunden aus dem öffentlichen Sektor suchen wir einen erfahrenen Produkt Owner und/oder Teamleiter (m/w/d) im Bereich Container Plattformen mit fundiertem technischem Verständnis in Openshift, Kubernetes und Azure, zur Aufgaben- und Ressourcenplanung, Teamkoordination und Konfliktmanagement. Voraussetzungen sind Erfahrungen im Public Sektor, Wohnsitz in Deutschland, Bereitschaft zu Sicherheitsüberprüfungen (SÜ2) und gelegentlichen Dienstreisen sowie fließende Deutschkenntnisse.
 
@@ -81,7 +48,4 @@ if __name__ == "__main__":
     Dennis Jovanovic
     Senior Candidate Consultant
     Phone: +49 89 55197840
-    E-Mail: d.jovanovic@sthree.com"""
-    JobProfileBotTool(job_profile_name, job_profile_text).run()
-    CoverLetterBotTool(job_profile_name).run()
-
+    E-Mail: d.jovanovic@sthree.com

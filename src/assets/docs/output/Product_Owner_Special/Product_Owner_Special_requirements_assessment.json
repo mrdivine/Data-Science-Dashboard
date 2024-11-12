@@ -1,0 +1,57 @@
+[
+    {
+        "requirement_name": "Product Owner and/or Team Leader in Container Platforms",
+        "requirement_type": "essential",
+        "related_experience": "Experience in leading projects related to container platform management and team coordination.",
+        "examples": [
+            "Project Lead of CRM Cleaning and Development of AI-first Web-Scraping Technology",
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim"
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has led projects involving CRM data cleaning and AI web-scraping development, demonstrating project management and team coordination skills. The experience aligns well with the requirement, but there is room for improvement in direct container platform management projects."
+    },
+    {
+        "requirement_name": "Openshift, Kubernetes, and Azure Technical Understanding",
+        "requirement_type": "essential",
+        "related_experience": "Solid technical understanding and hands-on experience with Openshift, Kubernetes, and Azure technologies.",
+        "examples": [
+            "Product Owner of Analytics Landing Page",
+            "Development of Bioinformatics Pipelines for Genome Assembly Algorithms"
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has worked on projects involving analytics platforms and bioinformatics pipelines on cloud services, showcasing a strong technical background in Openshift, Kubernetes, and Azure. The experience directly aligns with the requirement, indicating a high level of competency."
+    },
+    {
+        "requirement_name": "Public Sector Experience",
+        "requirement_type": "essential",
+        "related_experience": "Experience working in the public sector, understanding the unique challenges and requirements of government projects.",
+        "examples": [
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim",
+            "Senior Data Scientist - BI X GmbH"
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "The candidate has experience in digital transformation projects within the pharmaceutical industry, which involves regulatory compliance similar to the public sector. While not directly in the public sector, the candidate's experience demonstrates an understanding of compliance and governance, albeit in a different industry."
+    },
+    {
+        "requirement_name": "Residence in Germany and Willingness for Security Checks and Travel",
+        "requirement_type": "essential",
+        "related_experience": "Residency in Germany, willingness to undergo security checks, and occasional business travel requirements.",
+        "examples": [
+            "Conceptualization of Bespoke Knowledge Management System Including PoC",
+            "Interim Head of Data Science - BI X GmbH"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate resides in Germany and has experience leading projects and teams, indicating readiness for security checks and business travel. The high self-assessment score reflects strong alignment with the residency and travel requirements."
+    },
+    {
+        "requirement_name": "Fluent in German Language",
+        "requirement_type": "essential",
+        "related_experience": "Proficiency in both spoken and written German to facilitate communication in a German-speaking work environment.",
+        "examples": [
+            "Research Scientist, Radiogenomics - Applied Bioinformatics Group, Center for Bioinformatics, Eberhard Karls University T\u00fcbingen",
+            "Head of Digital Lab, CD&O - Boehringer-Ingelheim"
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has experience working in a German university environment and leading digital transformation projects, showcasing proficiency in spoken and written German. The high self-assessment score indicates strong language skills suitable for a German-speaking work environment."
+    }
+]
