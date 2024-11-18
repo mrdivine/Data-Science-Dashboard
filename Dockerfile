@@ -14,4 +14,4 @@ RUN pip install -e .  # The -e flag installs in editable mode for local developm
 EXPOSE 8501
 
 # Run streamlit when the container launches
-CMD ["streamlit", "run", "src/Home.py"]
+CMD ["streamlit", "run", "src/app.py"]

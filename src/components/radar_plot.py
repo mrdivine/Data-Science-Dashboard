@@ -1,8 +1,6 @@
-import streamlit as st
-import plotly.graph_objects as go
-import json
 from typing import List, Dict
 import textwrap
+
 
 class RadarChartComponent:
     """A component for displaying a radar chart based on skills from JSON data."""
@@ -118,7 +116,7 @@ class DetailedRequirementsComponent:
                 title_x=0.5,
                 showlegend=False
             )
-
+            
             # Display the radar chart in Streamlit
             st.plotly_chart(fig)
 

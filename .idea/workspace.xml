@@ -1,13 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.60758704" />
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b691dee-2172-4fb7-95fd-956c3782cad2" name="Changes" comment="change remove egg-info">
-      <change afterPath="$PROJECT_DIR$/src/pages/10_Product_Owner_Special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assessment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assessment/process_assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/assessment_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Custom_Assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Disclaimer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lightsail/build_and_push_image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.lightsail/build_and_push_image.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lightsail/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/.lightsail/config.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lightsail/deploy_image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.lightsail/deploy_image.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lightsail/local_build_deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.lightsail/local_build_deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Welcome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assessment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/assessment/write_assessment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Business_Analyst.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Data_Engineer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/assessments/02/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Data_Science_Expert_-_NLP_Focus.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/assessments/03/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Product_Owner.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/assessments/04/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Product_Owner_Special.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/Python_Cloud_Developer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/assessments/05/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/config/candidate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/candidate/candidate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Business_Analyst/Business_Analyst_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Candidate/FullResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/candidate/FullResume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Candidate/projects_list.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/docs/candidate/projects_list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Data_Engineer/Data_Engineer_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Landing/Business Analyst.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Landing/Data Engineer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Landing/Data Science Expert - NLP Focus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Landing/Product Owner.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Landing/Python Cloud Developer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Product_Owner/Product_Owner_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Product_Owner_Special/Product_Owner_Special_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/input/Python_Cloud_Developer/Python_Cloud_Developer_job_profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Business_Analyst/Business_Analyst_candidate_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Business_Analyst/Business_Analyst_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Business_Analyst/Business_Analyst_job_profile_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Business_Analyst/Business_Analyst_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Engineer/Data_Engineer_candidate_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Engineer/Data_Engineer_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Engineer/Data_Engineer_job_profile_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Engineer/Data_Engineer_requirements_assessment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Engineer/Data_Engineer_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_candidate_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_job_profile_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_requirements_assessment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Data_Science_Expert_-_NLP_Focus/Data_Science_Expert_-_NLP_Focus_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner/Product_Owner_candidate_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner/Product_Owner_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner/Product_Owner_job_profile_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner/Product_Owner_requirements_assessment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner/Product_Owner_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner_Special/Product_Owner_Special_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Product_Owner_Special/Product_Owner_Special_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_candidate_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_cover_letter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_job_profile_skills.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_requirements_assessment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/docs/output/Python_Cloud_Developer/Python_Cloud_Developer_requirements_assessment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cover_letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cover_letter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/radar_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/radar_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cover_letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/assessment/write_cover_letter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/10_Product_Owner_Special.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/1_Product_Owner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/2_Data_Scientist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/3_Data_Engineer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/4_Python_Cloud_Developer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/5_Business_Analyst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/6_Custom_Assessment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/7_Disclaimer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.lightsail/Dockerfile.prod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/assessment/create_profile_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +100,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Markdown" />
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -35,39 +120,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.1_Product_Owner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_Data_Scientist.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.assessment.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.bot.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.bot_example.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.cover_letter.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.cover_letter_bot.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.1_Product_Owner.executor": "Run",
+    "Python.2_Data_Scientist.executor": "Debug",
+    "Python.assessment.executor": "Debug",
+    "Python.bot.executor": "Debug",
+    "Python.bot_example.executor": "Debug",
+    "Python.cover_letter.executor": "Debug",
+    "Python.cover_letter_bot.executor": "Debug",
+    "Python.main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new-ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Markdown&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/docs/output/assessments" />
-      <recent name="$PROJECT_DIR$/src/assets/docs/output" />
-      <recent name="$PROJECT_DIR$/src/assets/docs/input/Landing" />
-      <recent name="$PROJECT_DIR$/src/assets/docs/input/Candidate" />
-      <recent name="$PROJECT_DIR$/src/assets/docs" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/assessments/05" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/assessments/04" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/Candidate" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/assessments/03" />
+      <recent name="$PROJECT_DIR$/src/assets/docs/assessments/02" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -117,52 +204,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assessment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="job-profile-self-assessment" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/assessment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cover_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="job-profile-self-assessment" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cover_letter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="job-profile-self-assessment" />
       <option name="ENV_FILES" value="" />
@@ -186,12 +227,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="write_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/assessment/write_assessment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="write_cover_letter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="job-profile-self-assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/assessment/write_cover_letter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.1_Product_Owner" />
-        <item itemvalue="Python.assessment" />
-        <item itemvalue="Python.cover_letter" />
+        <item itemvalue="Python.write_assessment" />
+        <item itemvalue="Python.write_cover_letter" />
         <item itemvalue="Python.2_Data_Scientist" />
       </list>
     </recent_temporary>
@@ -223,7 +310,10 @@
       <workItem from="1731054660197" duration="793000" />
       <workItem from="1731258502559" duration="809000" />
       <workItem from="1731324368755" duration="3146000" />
-      <workItem from="1731417340889" duration="720000" />
+      <workItem from="1731417340889" duration="32451000" />
+      <workItem from="1731516069522" duration="20175000" />
+      <workItem from="1731681307984" duration="23553000" />
+      <workItem from="1731925663732" duration="14774000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of streamlit dashboard project">
       <option name="closed" value="true" />

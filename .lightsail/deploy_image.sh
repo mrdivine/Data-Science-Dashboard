@@ -20,6 +20,10 @@ deployment_config=$(cat <<EOF
       "image": "$latest_image",
       "ports": {
         "8501": "HTTP"
+      },
+      "environment": {
+        "OPENAI_API_KEY": "$OPENAI_API_KEY",
+        "SELF_ASSESSMENT_APP_ENVIRONMENT": "$SELF_ASSESSMENT_APP_ENVIRONMENT"
       }
     }
   },

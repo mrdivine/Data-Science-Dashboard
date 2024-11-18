@@ -1,93 +1,116 @@
 import json
-import re
+import time
 from pathlib import Path
+import os
 
 
 class Config:
-    """Handles configuration for candidate and job profile settings."""
+    """Handles configuration for candidate and job profile settings, including assessments."""
 
-    def __init__(self, profile_title: str, job_profile_text: str = None, candidate_config_path: str = None):
+    def __init__(self, assessment_id: str = None, job_profile_text: str = None):
         self.base_path = Path(__file__).parent
-        if not candidate_config_path:
-            candidate_config_path = self.base_path / "assets/config/candidate.json"
+        self.assessment_id = assessment_id
 
-        if job_profile_text:
-            profile_config_path = self.create_profile_config(profile_title, job_profile_text)
+        # Get the environment var
+        self.environment = os.getenv("SELF_ASSESSMENT_APP_ENVIRONMENT", "dev")
+        # Paths for the candidate configuration
+        self.candidate_config_path = self.base_path / "assets/docs/candidate/candidate.json"
 
+        # Handle three main scenarios
+        if self.assessment_id:
+            self.config = self._load_existing_config()
+        elif job_profile_text:
+            self.assessment_id = self._generate_assessment_id()
+            self.config = self._create_new_assessment_config(job_profile_text)
         else:
-            profile_title, profile_config_path = self.get_profile_config_path(profile_title)
+            raise ValueError("Either assessment_id or job_profile_text must be provided.")
 
-        self.config = self._load_config(candidate_config_path, profile_config_path)
+    @staticmethod
+    def _generate_assessment_id():
+        """Generate a unique assessment ID using a timestamp."""
+        return str(int(time.time()))
 
-    def get_profile_config_path(self, profile_title: str):
-        safe_title = self._sanitize_title(profile_title)
-        return safe_title, f"{self.base_path}/assets/config/{safe_title}.json"
+    def _get_assessment_folder(self):
+        """Return the folder path for the current assessment."""
+        return self.base_path / f"assets/docs/assessments/{self.assessment_id}"
 
-    def create_profile_config(self, profile_title, job_profile_text):
-        """Creates a configuration JSON file for a given profile title if it doesn't exist.
+    def _get_config_path(self):
+        """Return the path to the configuration file for the current assessment."""
+        return self._get_assessment_folder() / "config.json"
 
-        :param profile_title: Title of the profile (e.g., 'Business Analyst').
-        :return: Path to the newly created profile configuration file.
-        """
-        # Make title filesystem-safe
-        safe_title, profile_config_path = self.get_profile_config_path(profile_title)
-
-        # Define the file paths for output files based on title
-        config_content = {
-            "profile_title": f"{profile_title}",
-            "job_profile_file": f"assets/docs/input/{safe_title}/{safe_title}_job_profile.md",
-            "cover_letter_file": f"assets/docs/output/{safe_title}/{safe_title}_cover_letter.md",
-            "job_profile_skills_file": f"assets/docs/output/{safe_title}/{safe_title}_job_profile_skills.csv",
-            "candidate_skills_file": f"assets/docs/output/{safe_title}/{safe_title}_candidate_skills.csv",
-            "requirements_assessment_file": f"assets/docs/output/{safe_title}/{safe_title}_requirements_assessment.json"
-        }
-        # Ensure each directory in the config exists
-        for key, filepath in config_content.items():
-            # Skip 'profile_title' as it’s not a path
-            if key == "profile_title":
-                continue
-
-            # Extract directory path and create if it doesn’t exist
-            directory = Path(filepath).parent
-            directory.mkdir(parents=True, exist_ok=True)
-
-        # Save the initial config if it doesn't already exist
-        config_path = Path(profile_config_path)
+    def _load_existing_config(self):
+        """Load configuration for an existing assessment, handling missing files gracefully."""
+        config_path = self._get_config_path()
 
         if not config_path.exists():
-            with open(config_path, "w") as f:
-                json.dump(config_content, f, indent=4)
-            print(f"Created new profile config at {profile_config_path}")
+            raise FileNotFoundError(f"Configuration file not found for assessment ID: {self.assessment_id}")
 
+        with open(self.candidate_config_path, "r") as f:
+            candidate_config = json.load(f)
+
+        with open(config_path, "r") as f:
+            assessment_config = json.load(f)
+
+        # Merge configs, prioritizing assessment_config
+        return self._merge_configs(candidate_config, assessment_config)
+
+    def _create_new_assessment_config(self, job_profile_text):
+        """Create a new assessment configuration and save the job profile text."""
+        assessment_folder = self._get_assessment_folder()
+        assessment_folder.mkdir(parents=True, exist_ok=True)
+
+        # Define the file paths for the new assessment
+        config_content = {
+            "assessment_id": self.assessment_id,
+            "job_profile_file": str(assessment_folder / "job_profile.md"),
+            "cover_letter_file": str(assessment_folder / "cover_letter.md"),
+            "requirements_assessment_file": str(assessment_folder / "requirements_assessment.json")
+        }
+
+        # Save the job profile text
         with open(config_content["job_profile_file"], "w") as f:
             f.write(job_profile_text)
 
-        return profile_config_path
+        # Save the new configuration
+        config_path = self._get_config_path()
+        with open(config_path, "w") as f:
+            json.dump(config_content, f, indent=4)
 
-    @staticmethod
-    def _sanitize_title(title):
-        """Sanitizes a title to be filesystem-safe."""
-        return re.sub(r'[^\w\s-]', '', title).replace(" ", "_")
-
-    def _load_config(self, candidate_config_path, profile_config_path):
-        """Loads and merges candidate and profile configurations."""
-        # Read candidate config
-        with open(candidate_config_path, "r") as f:
+        # Load and merge with the candidate config
+        with open(self.candidate_config_path, "r") as f:
             candidate_config = json.load(f)
 
-        # Read profile config
-        with open(profile_config_path, "r") as f:
-            profile_config = json.load(f)
+        return self._merge_configs(candidate_config, config_content)
 
-        # Merge configs with profile_config overriding candidate_config on conflicts
-        combined_config = {**candidate_config, **profile_config}
+    def _merge_configs(self, candidate_config, assessment_config):
+        """Merge candidate and assessment configurations, with assessment_config taking precedence."""
+        combined_config = {**candidate_config, **assessment_config}
 
-        # Add base path to all path entries in the config
+        # Adjust paths to be absolute
         for key, value in combined_config.items():
-            if isinstance(value, str) and "assets/" in value:  # Adjust for all paths in assets folder
+            if isinstance(value, str) and "assets/" in value:
                 combined_config[key] = str(self.base_path / value)
 
+        combined_config["environment"] = self.environment
+
         return combined_config
+
+    def __setitem__(self, key, value):
+        """Set a key-value pair in the configuration and save the updated config immediately.
+
+        Args:
+            key (str): The key for the configuration entry.
+            value: The value for the configuration entry.
+        """
+        # Set the key-value pair in the configuration
+        self.config[key] = value
+
+        # Save the updated configuration to the config.json file
+        config_path = self._get_config_path()
+        with open(config_path, "w") as f:
+            json.dump(self.config, f, indent=4)
+
+        print(f"Updated '{key}: {value}' in config and saved to {config_path}")
 
     def get(self, key, default=None):
         """Retrieve a configuration value by key with an optional default."""

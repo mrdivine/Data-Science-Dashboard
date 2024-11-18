@@ -1,7 +1,0 @@
-requirement_name,self_assessment_score,related_experience,rationale
-"Python (Data Processing, Visualization)",8.0,['Led CRM data normalization and cleaning project with Python data processing and visualization.'],Demonstrated proficiency in Python for data processing and visualization in CRM project.
-SQL (Large-Scale Data Management),7.0,['Used SQL for managing and querying data in CRM project.'],"Experience in SQL for data management, though limited to specific project needs."
-"Cloud Platforms (AWS, Azure, GCP)",7.0,['Implemented genAI-first web crawling strategy on AWS for CRM data augmentation.'],"Experience in cloud platforms, particularly AWS, but may benefit from exposure to other platforms like Azure and GCP."
-GIS Platforms and Web Mapping Frameworks,6.0,['Familiarity with GIS platforms and web mapping frameworks in CRM project visualization.'],"Basic understanding demonstrated in project context, with potential for further development."
-Data Visualization Libraries,8.0,['Led CRM data visualization using interactive tools on AWS.'],"Strong experience in data visualization libraries, especially in CRM project context."
-Cloud Security Practices,6.0,['Implemented security measures on AWS for CRM data handling.'],"Basic understanding and implementation of security measures, with room for growth in cloud security practices."

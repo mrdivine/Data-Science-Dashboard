@@ -1,0 +1,8 @@
+{
+    "profile_title": "Python Cloud Developer",
+    "job_profile_file": "assets/docs/assessments/05/job_profile.md",
+    "cover_letter_file": "assets/docs/assessments/05/cover_letter.md",
+    "job_profile_skills_file": "assets/docs/assessments/05/job_profile_skills.csv",
+    "candidate_skills_file": "assets/docs/assessments/05/candidate_skills.csv",
+    "requirements_assessment_file": "assets/docs/assessments/05/requirements_assessment.json"
+}

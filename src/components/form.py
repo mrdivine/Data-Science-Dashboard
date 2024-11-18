@@ -12,7 +12,8 @@ class SignUpFormComponent:
         if "form_submitted" not in st.session_state:
             st.session_state["form_submitted"] = False
 
-    def is_valid_email(self, email):
+    @staticmethod
+    def is_valid_email(email):
         """Validates email format using regex."""
         email_regex = r"^[\w\.-]+@[\w\.-]+\.\w{2,3}$"
         return re.match(email_regex, email) is not None

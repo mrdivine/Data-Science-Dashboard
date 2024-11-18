@@ -27,5 +27,5 @@ class HeaderComponent:
                 """, unsafe_allow_html=True
             )
         with col2:
-            st.image(self.image_path, use_column_width=True)
+            st.image(self.image_path, use_container_width=True)
         st.markdown("---")
