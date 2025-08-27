@@ -30,7 +30,7 @@ def display_site_info():
       
     I am an Expert in **Data Analytics & AI Strategy**, and I'm offering you my **15+ years** of experience in **data integration** and **AI-driven innovation** to **accelerate your business growth** and **enhance your market competitiveness**. I design and deploy **AI solutions in the Cloud** or lead teams to do so. My work  🚀 **drives efficiency**, 🤖 **automates workflows**, and 💡 **delivers strategic insights**. From **Petobyte Scale Data Pipelines** to **RAG systems** for pharmaceutical compliance, I’ve done it all. 
 
-    ✨ **Try the Assessment Tool below** to see my **efficiency-driven approach** in action, or let’s chat about how I can bring **tailored AI solutions** to your business!  
+    ✨ **Book your Free Stratgey Session today**, and let’s chat about how I can bring **tailored AI solutions** to your business!  
         
     """)
 
