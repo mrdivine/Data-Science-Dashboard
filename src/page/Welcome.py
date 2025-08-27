@@ -28,7 +28,7 @@ def display_site_info():
     st.markdown("""
     👋 **Hi, I’m Dr. Mathew Divine**  
       
-    I am an Expert in **Data Analytics & AI Strategy**, and I'm offering you my **15+ years** of experience in **data integration** and **AI-driven innovation** to **accelerate your business growth** and **enhance your market competitiveness**. I design and deploy **AI solutions in the Cloud** or lead teams to do so. My work  🚀 **drives efficiency**, 🤖 **automates workflows**, and 💡 **delivers strategic insights**. From **Petobyte Scale Data Pipelines** to **RAG systems** for pharmaceutical compliance, I’ve done it all. 
+    I am an Expert in **Data Analytics & AI Strategy**, and I'm offering you my **15+ years** of experience in **data integration** and **AI-driven innovation** to **accelerate your business growth** and **enhance your market competitiveness**. I design and deploy **AI solutions in the Cloud** or lead teams to do so. My work  🚀 **drives efficiency**, 🤖 **automates workflows**, and 💡 **delivers strategic insights**. From **Petobyte Scale Data Pipelines** to **RAG systems** for pharmaceutical compliance, I’ve done it all. And I'll do it for you.
 
     ✨ **Book your Free Stratgey Session today**, and let’s chat about how I can bring **tailored AI solutions** to your business!  
         
@@ -74,19 +74,19 @@ def welcome():
     setup_layout()
     HeaderComponent().display()
     display_site_info()
-    st.title("🛠 Job Profile Assessment Tool️")
-    st.markdown("""---""")
-    st.write("""
-        ### Instructions:
-        Assess Dr. Mathew Divine against your job profile and see if he is the right fit for your project. 
-        1. Paste your job profile into the text area below.
-        2. Click "Generate Assessment".
-        3. A unique link to view your custom assessment will be provided.
-    """)
-    AssessmentInput().display()
-    st.markdown("""
-    ---
-    """)
+    # st.title("🛠 Job Profile Assessment Tool️")
+    # st.markdown("""---""")
+    # st.write("""
+    #     ### Instructions:
+    #     Assess Dr. Mathew Divine against your job profile and see if he is the right fit for your project. 
+    #     1. Paste your job profile into the text area below.
+    #     2. Click "Generate Assessment".
+    #     3. A unique link to view your custom assessment will be provided.
+    # """)
+    # AssessmentInput().display()
+    # st.markdown("""
+    # ---
+    # """)
     ContactInfoComponent().display()
 
 if __name__ == "__main__":

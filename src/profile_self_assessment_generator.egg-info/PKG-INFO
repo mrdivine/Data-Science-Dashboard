@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: profile-self-assessment-generator
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: pydantic

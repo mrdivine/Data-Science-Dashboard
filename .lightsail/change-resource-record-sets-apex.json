@@ -1,0 +1,17 @@
+{
+    "Comment": "Comment",
+    "Changes": [
+      {
+        "Action": "CREATE",
+        "ResourceRecordSet": {
+          "Name": "dr-data-dude.com",
+          "Type": "A",
+          "AliasTarget": {
+            "HostedZoneId": "Z06137433FV04OY4EC6L0",
+            "DNSName": "self-assessment-dashboard-service-prod.txfhmc11c7396.eu-central-1.cs.amazonlightsail.com",
+            "EvaluateTargetHealth": true
+          }
+        }
+      }
+    ]
+  }

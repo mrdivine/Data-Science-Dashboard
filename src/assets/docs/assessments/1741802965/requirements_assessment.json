@@ -1,0 +1,57 @@
+[
+    {
+        "requirement_name": "Project Management",
+        "requirement_type": "essential",
+        "related_experience": "Extensive experience in leading projects from initiation to completion, ensuring successful delivery within budget and timeline constraints.",
+        "examples": [
+            "Led CRM data normalization and cleaning project with visualization using a Sankey Diagram to enhance customer understanding and increase revenue.",
+            "Coordinated digital transformation strategy development, including coaching and upskilling teams on design thinking methodologies at Boehringer-Ingelheim."
+        ],
+        "self_assessment_score": 9.0,
+        "rationale": "The candidate has demonstrated strong project management skills in various projects, showcasing leadership, organization, and successful project outcomes."
+    },
+    {
+        "requirement_name": "AI Strategy Development",
+        "requirement_type": "essential",
+        "related_experience": "Vast experience in developing and integrating cutting-edge AI models into business strategies and technical solutions, leading to measurable outcomes.",
+        "examples": [
+            "Implemented genAI-first web crawling strategy for customer CRM data augmentation on AWS.",
+            "Led the development of a bespoke knowledge management system, conducting qualitative user research and collaborating with key stakeholders."
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has a proven track record of AI strategy development, showcasing expertise in AI model integration and business impact."
+    },
+    {
+        "requirement_name": "Data Visualization",
+        "requirement_type": "desirable",
+        "related_experience": "Proficiency in creating visually appealing and informative data visualizations to aid in decision-making and insights generation.",
+        "examples": [
+            "Developed a RAG system with Streamlit for interactive lay document generation based on clinical trial protocols.",
+            "Served as the Product Owner for an analytics landing page with recommendation engine and enhanced question answering capabilities."
+        ],
+        "self_assessment_score": 7.0,
+        "rationale": "The candidate has demonstrated solid skills in data visualization through projects like the lay document generation system and analytics landing page, showcasing the ability to translate data into actionable insights."
+    },
+    {
+        "requirement_name": "Cloud Development",
+        "requirement_type": "desirable",
+        "related_experience": "Experience in leveraging cloud services for scalable and efficient data processing and storage solutions.",
+        "examples": [
+            "Utilized AWS services for bioinformatics pipeline development at BI X GmbH.",
+            "Integrated cloud infrastructure for developing AI-first web-scraping technology for CRM data augmentation."
+        ],
+        "self_assessment_score": 6.0,
+        "rationale": "The candidate has some experience in cloud development as seen in projects involving AWS services, showcasing a foundational understanding of cloud technologies."
+    },
+    {
+        "requirement_name": "Team Leadership",
+        "requirement_type": "essential",
+        "related_experience": "Proven ability to mentor, coach, and lead teams to successful project outcomes, fostering innovation and growth.",
+        "examples": [
+            "Coached an international team of digital entrepreneurs at Boehringer-Ingelheim on design thinking and digital strategies.",
+            "Led a hackathon project focused on gamifying NLP annotation, showcasing teamwork and leadership skills."
+        ],
+        "self_assessment_score": 8.0,
+        "rationale": "The candidate has demonstrated effective team leadership skills in various projects, showcasing the ability to guide and inspire teams towards successful project completion."
+    }
+]

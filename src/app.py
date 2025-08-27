@@ -3,7 +3,7 @@ from page.Welcome import welcome
 from page.Disclaimer import disclaimer
 from page.Custom_Assessment import custom_assessment
 
-st.set_page_config(page_title="Dr. Mathew Divine 🚀", page_icon=":material/terminal:")
+st.set_page_config(page_title="Dr. Mathew Divine 🚀", page_icon=":material/terminal:", initial_sidebar_state="collapsed")
 # Check for the assessment_id in the URL
 params = st.query_params
 new_assessment_id = params.get("assessment_id", False)

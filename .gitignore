@@ -10,4 +10,4 @@ build/
 *.dockerignore
 .idea
 src/assets/docs/output/assessments
-*egg-info
+*egg-info.idea/
